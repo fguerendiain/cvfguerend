@@ -1,0 +1,15 @@
+{
+    "languages":[
+        {"es":"Español"},
+        {"en":"English"}
+    ],
+    "owner":{
+        "firstName":"Franco Javier",
+        "lastName":"Guerendiain",
+        "title":[
+            {"es":"Desarrollador de Software"},
+            {"en":"Software Developer"},
+            {"ch":"tu ieja en tanga"}
+        ]
+    }
+}

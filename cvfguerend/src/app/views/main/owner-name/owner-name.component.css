@@ -1,0 +1,24 @@
+.firstName{
+    color: rgb(143, 0, 0);
+    text-shadow: 0.1vw 0.1vw rgb(51, 0, 0);
+    text-shadow: -0.1vw 0vw black, 0vw 0.1vw black, 0.1vw 0vw black, 0vw -0.1vw black;
+    font-size: 2.5vw;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    padding-bottom: 2vw;
+
+}
+
+.lastName{
+    color:rgb(216, 216, 216);
+    text-shadow: 0.1vw 0.1vw rgb(95, 95, 95);
+    text-shadow: -0.1vw 0vw black, 0vw 0.1vw black, 0.1vw 0vw black, 0vw -0.1vw black;
+    font-size: 3vw;
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 2vw;
+}
+
+.ownerDataContainerDiv{
+background-color: transparent;
+
+}
