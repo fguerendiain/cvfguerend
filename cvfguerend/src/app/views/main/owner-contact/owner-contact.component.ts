@@ -1,6 +1,5 @@
 import { Component, OnInit, Input, SimpleChanges } from '@angular/core';
 import * as Data from '../../../../assets/cvData.json';
-import * as Utils from '../../../Utils';
 
 @Component({
   selector: 'app-owner-contact',
