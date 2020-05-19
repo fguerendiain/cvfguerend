@@ -1,0 +1,11 @@
+<div>
+  <a href={{phoneNumber}}>{{phoneMask}}</a>
+</div>
+
+<div>
+  <a href={{emailAddress}}>{{emailMask}}</a>
+</div>
+
+<div>
+    <a *ngFor="let link of links" href={{link.url}}>{{link.site}}</a>
+</div>

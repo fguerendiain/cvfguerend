@@ -6,10 +6,65 @@
     "owner":{
         "firstName":"Franco Javier",
         "lastName":"Guerendiain",
+
         "title":[
             {"es":"Desarrollador de Software"},
-            {"en":"Software Developer"},
-            {"ch":"tu ieja en tanga"}
-        ]
-    }
+            {"en":"Software Developer"}
+        ],
+
+        "bio":{
+          "title":[
+            {"es":"Perfil Profesional"},
+            {"en":"Professional Profile"}
+          ],
+          "text":[
+            {"es":"Cuento con experiencia y conocimientos técnicos generales en cuanto a redes e infraestructura. Soy una persona pro-activa y con capacidad para formar parte de un equipo en el que se busque permanentemente la eficiencia y la constante capacitación.\nDeseo poder crecer profesional y personalmente en el mercado laboral del desarrollo de software, razón por la cual asisti Universidad Tecnológica Nacional (UTN-FRA). cursando la carrera de “Técnico superior en programación”."},
+            {"en":"I am a proactive person and like to be part of a team which seeks for permanent efficiency and constant learning.\nCount with experience on support and maintenance of applications, and management of networks and infrastructure\nI wish to build a solid and professional career in the software development market, which is the reason why I have been studying the course of “Senior Technician in Programing” in the Universidad Tecnológica Nacional (UTN-FRA)"}
+          ]
+        },
+
+        "contact":{
+          "phone":{
+            "icon":"./ico/phone.png",
+            "number": "+541161032207",
+            "mask": "+54 11 6103-2207"
+          },
+          "email": {
+            "icon":"./ico/email.png",
+            "address": "fguerendiain33@gmail.com"
+          },
+          "links":[
+            {
+              "icon":"./ico/linkedin.png",
+              "site": "Linkedin",
+              "url": "https://ar.linkedin.com/in/fguerendiain"
+            }
+          ],
+          "address":{
+            "country":[
+              {"en":"Argentina"},
+              {"es":"Argentina"}
+            ],
+            "province":[
+              {"en":"Buenos Aires"},
+              {"es":"Buenos Aires"}
+            ],
+            "city":[
+              {"en":"Quilmes"},
+              {"es":"Quilmes"}
+            ]
+          }
+        }
+     },
+     "resume":{
+       "education":[{
+
+       }
+       ],
+       "knowledge":[],
+       "jobs":[]
+     }
 }
+
+02.2016 - 12.2018 | Universidad Tecnológica Nacional. Facultad Regional Avellaneda.
+Senior technician in programing, Incomplete, Tertiary.

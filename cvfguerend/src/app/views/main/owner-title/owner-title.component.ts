@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
-import * as data from '../../../../assets/cvData.json';
+import * as Data from '../../../../assets/cvData.json';
 import * as Utils from '../../../Utils';
 
 @Component({
@@ -19,6 +19,6 @@ export class OwnerTitleComponent implements OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    this.title = Utils.getTranslation(this.selectedLang,data.owner.title);
+    this.title = Utils.getTranslation(this.selectedLang, Data.owner.title);
   }
 }

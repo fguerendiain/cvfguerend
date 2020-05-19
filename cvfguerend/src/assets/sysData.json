@@ -1,0 +1,53 @@
+{
+  "mailForm":{
+    "lblEmail":[
+      {"en":"Email"},
+      {"es":"Correo Electronico"}
+    ],
+    "placeHolderEmail":[
+      {"en":"example@domain.com"},
+      {"es":"ejemplo@dominio.com"}
+    ],
+    "errEmail":[
+      {"en":"Please enter a valid email address"},
+      {"es":"Por favor ingrese una direccion de correo valida"}
+    ],
+    "tooltipEmail1":[
+      {"en":"Field "},
+      {"es":"Campo "}
+    ],
+    "tooltipEmail2":[
+      {"en":"required"},
+      {"es":"requerido"}
+    ],
+
+    "lblSummary":[
+      {"en":"Summary"},
+      {"es":"Asunto"}
+    ],
+    "placeHolderSummary":[
+      {"en":"Message summary"},
+      {"es":"Asunto del mensaje"}
+    ],
+    "lblMessage":[
+      {"en":"Message"},
+      {"es":"Mensaje"}
+    ],
+    "placeHolderMessage":[
+      {"en":"Leave a message"},
+      {"es":"Deje su mensaje"}
+    ],
+    "btnSubmit":[
+      {"en":"Submit"},
+      {"es":"Enviar"}
+    ],
+
+
+    "TEMPLATE":[
+      {"en":""},
+      {"es":""}
+    ]
+  }
+}
+
+

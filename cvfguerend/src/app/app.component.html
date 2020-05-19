@@ -6,6 +6,20 @@
   <button (click)= "onClickCambiarIdioma()" >IDIOMA</button>
 </div>
 <div>
-  <app-mail-form></app-mail-form>
+  <app-owner-bio [selectedLang] = "selectedLang" ></app-owner-bio>
 </div>
-
+<div>
+  <app-mail-form [selectedLang] = "selectedLang"></app-mail-form>
+</div>
+<div>
+  <app-owner-contact [selectedLang] = "selectedLang"></app-owner-contact>
+</div>
+<div>
+  <app-education [selectedLang] = "selectedLang"></app-education>
+</div>
+<div>
+  <app-knowledge [selectedLang] = "selectedLang"></app-knowledge>
+</div>
+<div>
+  <app-jobs [selectedLang] = "selectedLang"></app-jobs>
+</div>

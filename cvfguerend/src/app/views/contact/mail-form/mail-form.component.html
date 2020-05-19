@@ -1,14 +1,31 @@
 <form class="example-form">
     <mat-form-field class="example-full-width">
-        <mat-label>Email</mat-label>
-        <input matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
-               placeholder="Ex. pat@example.com">
-        <mat-hint>Errors appear instantly!</mat-hint>
-        <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
-          Please enter a valid email address
-        </mat-error>
-        <mat-error *ngIf="emailFormControl.hasError('required')">
-          Email is <strong>required</strong>
-        </mat-error>
-      </mat-form-field>
+      <mat-label>{{lblEmail}}</mat-label>
+      <input matInput onchange="" [formControl]="emailFormControl" [errorStateMatcher]="matcher" placeholder={{placeHolderEmail}} [(ngModel)]="mailInput">
+      <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+        {{errEmail}}
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('required')">
+        {{tooltipEmail1}} <strong>{{tooltipEmail2}}</strong>
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{lblSummary}}</mat-label>
+      <input matInput [formControl]="summaryFormControl" placeholder={{placeHolderSummary}} [(ngModel)]="summaryInput">
+      <mat-error *ngIf="summaryFormControl.hasError('required')">
+        {{tooltipEmail1}} <strong>{{tooltipEmail2}}</strong>
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{lblMessage}}</mat-label>
+      <textarea matInput [formControl]="messageFormControl" placeholder={{placeHolderMessage}} [(ngModel)]="massageTextArea"></textarea>
+      <mat-error *ngIf="messageFormControl.hasError('required')">
+        {{tooltipEmail1}} <strong>{{tooltipEmail2}}</strong>
+      </mat-error>
+    </mat-form-field>
+    <div *ngIf="hideSubmit()">
+      <button mat-flat-button (click)="submitForm()">{{btnSubmit}}</button>
+    </div>
   </form>

@@ -1,12 +1,19 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-@Injectable()
+const endpoint = 'http://localhost:4780/v1/';
+
+@Injectable({
+  providedIn: 'root'
+})
 export class EmailSenderService {
 
   constructor(private http: HttpClient) {}
- 
-  sendMessage(body) {
-    return this.http.post('localhost:4780/v1/sendMail', body);
+
+  public sendMessage(body) {
+    const req: string = endpoint + 'sendMail';
+    console.log(req + JSON.stringify(body));
+    return this.http.post(req, body);
   }
+
 }

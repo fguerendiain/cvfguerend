@@ -8,13 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'cvfguerend';
 
-  selectedLang: string = 'en';
+  selectedLang = 'en';
 
   onClickCambiarIdioma(){
-    if(this.selectedLang == 'en'){
+    if (this.selectedLang === 'en'){
       this.selectedLang = 'es';
-    }else if(this.selectedLang == 'es'){
-      this.selectedLang = 'ch';
     }else{
       this.selectedLang = 'en';
     }
