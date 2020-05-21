@@ -1,1 +1,9 @@
-<p>jobs works!</p>
+<h1>{{jobTitleLable}}</h1>
+<div *ngFor="let job of jobList">
+    <p>{{sinceLable}}{{job.since}}</p>
+    <p>{{untilLable}}{{job.until}}</p>
+    <pre>{{enterpriseLable}}{{job.enterprise}}</pre>
+    <pre>{{summaryLable}}{{job.summary}}</pre>
+    <pre>{{descriptionLable}}{{job.description}}</pre>    
+-----------------------------------------------------
+</div>

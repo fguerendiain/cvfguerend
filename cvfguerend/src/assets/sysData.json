@@ -40,14 +40,117 @@
     "btnSubmit":[
       {"en":"Submit"},
       {"es":"Enviar"}
-    ],
-
-
-    "TEMPLATE":[
-      {"en":""},
-      {"es":""}
     ]
-  }
+  },
+  "education":{
+    "title":[
+      {"en":"Educación"},
+      {"es":"Education"}
+    ],
+    "sinceLable":[
+      {"en":"Since: "},
+      {"es":"Desde: "}
+    ],
+    "untilLable":[
+      {"en":"Until: "},
+      {"es":"Hasta: "}
+    ],
+    "establishmentLable":[
+      {"en":"Establishment: "},
+      {"es":"Establecimiento: "}
+    ],
+    "degreeLable":[
+      {"en":"Degree: "},
+      {"es":"Titulo: "}
+    ]  
+  },
+  "jobs":{
+    "title":[
+      {"en":"Work Experience"},
+      {"es":"Experiencia Laboral"}
+    ],
+    "sinceLable":[
+      {"en":"Since: "},
+      {"es":"Desde: "}
+    ],
+    "untilLable":[
+      {"en":"Until: "},
+      {"es":"Hasta: "}
+    ],
+    "enterpriseLable":[
+      {"en":"Enterprise:\n"},
+      {"es":"Empresa:\n"}
+    ],
+    "summaryLable":[
+      {"en":"Position:\n"},
+      {"es":"Cargo:\n"}
+    ],
+    "descriptionLable":[
+      {"en":"Detail:\n"},
+      {"es":"Detalle:\n"}
+    ]  
+  },
+  "knowledge":{
+    "title":[
+      {"en":"Other Knowledge"},
+      {"es":"Otros Conocimientos"}
+    ],
+    "course":{
+      "title":[
+        {"en":"Courses"},
+        {"es":"Cursos"}
+      ],
+      "placeLable":[
+        {"en":"Place: "},
+        {"es":"Lugar: "}
+      ],
+      "nameLable":[
+        {"en":"Name: "},
+        {"es":"Nombre: "}
+      ],
+      "descriptionLable":[
+        {"en":"Description: "},
+        {"es":"Descripcion: "}
+      ]
+    },
+    "languages":{
+      "title":[
+        {"en":"Languages"},
+        {"es":"Idiomas"}
+      ],
+      "languageLable":[
+        {"en":"Language: "},
+        {"es":"Idioma: "}
+      ],
+      "oralLable":[
+        {"en":"Oral: "},
+        {"es":"Oral: "}
+      ],
+      "listenedLable":[
+        {"en":"Listened: "},
+        {"es":"Escuchado: "}
+      ],
+      "readLable":[
+        {"en":"Read: "},
+        {"es":"Leido: "}
+      ],
+      "writtenLable":[
+        {"en":"Written: "},
+        {"es":"Escrito: "}
+      ]
+    },
+    "technologiesLable":{
+      "title":[
+        {"en":"Technologies"},
+        {"es":"Tecnologias"}
+      ]
+    }
+  },
+
+  "TEMPLATE":[
+    {"en":""},
+    {"es":""}
+  ]
 }
 
 

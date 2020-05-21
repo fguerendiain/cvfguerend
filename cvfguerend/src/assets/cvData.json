@@ -53,8 +53,14 @@
     },
     "resume":{
       "education":[{
-        "since":"02.2016",
-        "until":"12.2018",
+        "since":[
+          {"en":"02.2016"},
+          {"es":"02.2016"}
+        ],
+        "until":[
+          {"en":"12.2018"},
+          {"es":"12.2018"}
+        ],
         "establishment":[
           {"en":"Universidad Tecnológica Nacional. Facultad Regional Avellaneda."},
           {"es":"Universidad Tecnológica Nacional. Facultad Regional Avellaneda."}
@@ -64,7 +70,178 @@
           {"es":"Tecnicatura Superior en programacion"}
         ]
       }],
-      "knowledge":[],
-      "jobs":[]
+      "knowledge":{
+        "courses":[
+          {
+            "place":[
+              {"en":"IAC Avellaneda"},
+              {"es":"IAC Avellaneda"}
+            ],
+            "name":[
+              {"en":"Handling tools of Microsoft Excel"},
+              {"es":"Manejo de herramientas de Microsoft Excel"}
+            ],
+            "Description":[
+              {"en":"Intermediate course"},
+              {"es":"Nivel Intermedio"}
+            ]
+          }
+        ],
+        "languages":[
+          {"language":[
+            {"en":"Spanish"},
+            {"es":"Español"}
+          ],
+          "oral":[
+            {"en":"Native"},
+            {"es":"Nativo"}
+          ],
+          "listened":[
+            {"en":"Native"},
+            {"es":"Nativo"}
+          ],
+          "read":[
+            {"en":"Native"},
+            {"es":"Nativo"}
+          ],
+          "written":[
+            {"en":"Native"},
+            {"es":"Nativo"}
+          ]},
+          {"language":[
+            {"en":"Englsh"},
+            {"es":"Inglés"}
+          ],
+          "oral":[
+            {"en":"Intermediate"},
+            {"es":"Intermedio"}
+          ],
+          "listened":[
+            {"en":"Intermediate"},
+            {"es":"Intermedio"}
+          ],
+          "read":[
+            {"en":"Intermediate"},
+            {"es":"Intermedio"}
+          ],
+          "written":[
+            {"en":"Basic"},
+            {"es":"Basico"}
+          ]}
+        ],
+        "technologies":[
+          "C","C#","Java","HTML5","CSS","Bootstrap","JavaScript","PHP","TypeScript","PostgreSQL",
+          "Android","Python","NodeJS","Oracle SQL","GIT","VisualStudio","VS Code","Tomcat","Maven","Jenkins","Nexus","Eclipse","Angular"
+        ]},
+      "jobs":[
+        {"since":[
+          {"en":"10.2019"},
+          {"es":"10.2019"}
+        ],
+        "until":[
+          {"en":"Present"},
+          {"es":"Present"}
+        ],
+        "enterprise":[
+          {"en":"EVERIS Argentina."},
+          {"es":"EVERIS Argentina."}
+        ],
+        "summary":[
+          {"en":"Project SADE “Sistema de Administración de Documentación Electrónica) Client: Gobierno de la ciudad de Buenos Aires"},
+          {"es":"Proyecto SADE “Sistema de Administración de Documentación Electrónica) Cliente: Gobierno de la ciudad de Buenos Aires"}
+        ],
+        "description":[
+          {"en":"-Full Stack Applications Development on Java, Hibernate, Spring , Tomcat, OracleSql.\n(Personal project within the company)\n-Design, development, maintenance and implementation of full stack application everis-run-helper-app on NodeJS, TypeScript and Angular 6 for processes automatization."},
+          {"es":"-Desarrollo Full Stack sobre Java, Hibernate, Spring ,Tomcat, OracleSql.\n(Proyecto personal dentro de la empresa)\n-Diseño, desarrollo, mantenimiento, e implementación de aplicación full stack everis-run-helper-app sobre NodeJS, TypeScript y Angular 6 para la automatización de procesos"}
+        ]},
+        {"since":[
+          {"en":"09.2017"},
+          {"es":"09.2017"}
+        ],
+        "until":[
+          {"en":"10.2019"},
+          {"es":"10.2019"}
+        ],
+        "enterprise":[
+          {"en":"EVERIS Argentina."},
+          {"es":"EVERIS Argentina."}
+        ],
+        "summary":[
+          {"en":"Project SADE “Sistema de Administración de Documentación Electrónica) Client: Gobierno de la ciudad de Buenos Aires"},
+          {"es":"Proyecto SADE “Sistema de Administración de Documentación Electrónica) Cliente: Gobierno de la ciudad de Buenos Aires"}
+        ],
+        "description":[
+          {"en":"-Support to client help desk.\n-Management and control of issues on core application and satellites modules.\n-RUN Team reference.\n-Analysis and monitoring of issues with Linux servers and application source code.\n-Issues resolution through PL/SQL script on Oracle BBDD.\n-Analysis, estimation and implementation of client requires.\n-Control and maintenance of the product on productivity environment, analyzing and solving issues.\n(Personal project within the company)\n-Design, development, maintenance and implementation of middleware everis-run-helper-api on NodeJS and TypeScript for processes automatization."},
+          {"es":"-Soporte a mesa de ayuda del cliente\n-Gestión y control de incidencias en módulos core y satélites de la aplicación.\n-Referente de equipo RUN.\n-Análisis y monitoreo de incidencias sobre servidores Linux y código de aplicaciones.\n-Resolución de inconvenientes a través de scripts PL/SQL sobre BBDD Oracle.\n-Análisis, estimación e implementación de requerimientos del cliente.\n-Control y mantenimiento del producto en ambiente productivo, analizando y resolviendo problemas.\n(Proyecto personal dentro de la empresa)\n-Diseño, desarrollo, mantenimiento e implementación de middleware everis-run-helper-api sobre NodeJS y TypeScript para la automatización de procesos"}
+        ]},
+
+        {"since":[
+          {"en":"12.2012"},
+          {"es":"12.2012"}
+        ],
+        "until":[
+          {"en":"09.2017"},
+          {"es":"09.2017"}
+        ],
+        "enterprise":[
+          {"en":"GRUPO AGG"},
+          {"es":"GRUPO AGG"}
+        ],
+        "summary":[
+          {"en":"24/7 Support, on 3 gambling houses and offices in Capital Federal"},
+          {"es":"Soporte 24/7, para 3 salas de juego y oficinas en Capital Federal"}
+        ],
+        "description":[
+          {"en":"-Setup, configuration, maintenance and repair of hardware park (final users and servers) (Windows XP, Windows 7, Windows 10, Windows Server, Linux Mint, Debian, Ubuntu).\n-Task automatization.\n-Setup, cabling and maintenance of networks.\n-Maintenance and setup of surveillance cctv systems with platforms Dahua and Geovision.\n-Build and setup of computer center.\n-Control and test of internet links, claim to suppliers and tracing.\n-Management and maintenance of telephone exchange.\n-Control and user management for different systems.\n-Building of process and task control, documentation and archive. Assistant of Budget Control, stock and administrative tasks related to the sector."},
+          {"es":"-Armado, configuración, mantenimiento y reparación de parque informático (servidores y usuarios finales) (Windows XP, Windows 7, Windows 10, Windows Server, Linux Mint, Debian, Ubuntu).\n-Automatización de tareas.\n-Armado, cableado y mantenimiento de redes.\n-Mantenimiento, armado y configuración de sistema de vigilancia cctv con plataformas Dahua y Geovision.\n-Armado y configuración de centro de cómputos.\n-Control y prueba de enlaces de Internet, reclamo a proveedores y seguimiento.\n-Gestión y mantenimiento de central telefónica.\n-Control y gestión de usuarios para los diferentes sistemas.\n-Armado de procesos y control de tareas, documentación y archivo, asistente en control de presupuesto, control de stock y tareas administrativas relacionadas al sector."}
+        ]},
+        {"since":[
+          {"en":"05.2007"},
+          {"es":"05.2007"}
+        ],
+        "until":[
+          {"en":"12.2012"},
+          {"es":"12.2012"}
+        ],
+        "enterprise":[
+          {"en":"GRUPO AGG"},
+          {"es":"GRUPO AGG"}
+        ],
+        "summary":[
+          {"en":"Shopping Analyst"},
+          {"es":""}
+        ],
+        "description":[
+          {"en":"Staff training about the shopping circuit in the companies, commodity reception, facturation control, dealing with suppliers, price negotiations and payment conditions, claims support, shopping order emission. In charge of shopping, tracing and supervision relevant to most sectors of “Bingo Avellaneda”. Control and analysis of volumes and stock."},
+          {"es":"Entrenamiento del personal de la empresa en el circuito de compras, recepción de mercadería, control de facturación, trato con proveedores, negociación de precios y condiciones de pago, reclamo de soporte, emisión de ordenes de compra. A cargo de las compras, seguimiento y supervisión relevante a la mayoría de los sectores de “Bingo Avellaneda”. Control y análisis de volúmenes y stock."}
+        ]},
+
+
+
+
+
+        {"since":[
+          {"en":"07.2004"},
+          {"es":"07.2004"}
+        ],
+        "until":[
+          {"en":"02.2005"},
+          {"es":"02.2005"}
+        ],
+        "enterprise":[
+          {"en":"GHIONE LAW FIRM"},
+          {"es":"ESTUDIO JURÍDICO GHIONE"}
+        ],
+        "summary":[
+          {"en":"Technical Support of systems and equipment"},
+          {"es":"Soporte tecnico de sistemas y equipamiento"}
+        ],
+        "description":[
+          {"en":""},
+          {"es":""}
+        ]}
+
+
+        ]
     }
 }

@@ -1,1 +1,20 @@
-<p>knowledge works!</p>
+<h1>{{knowledgeTitleLable}}</h1>
+<h2>{{courseLables.title}}</h2>
+<div *ngFor="let cur of coursesList">
+    <pre>{{courseLables.placeLable}}{{cur.place}}</pre>
+    <pre>{{courseLables.nameLable}}{{cur.name}}</pre>
+    <pre>{{courseLables.descriptionLable}}{{cur.Description}}</pre>    
+</div>
+<h2>{{languagesLables.title}}</h2>
+<div *ngFor="let lan of languagesList">
+    <pre>{{languagesLables.languageLable}}{{lan.language}}</pre>
+    <pre>{{languagesLables.oralLable}}{{lan.oral}}</pre>
+    <pre>{{languagesLables.listenedLable}}{{lan.listened}}</pre>
+    <pre>{{languagesLables.readLable}}{{lan.read}}</pre>    
+    <pre>{{languagesLables.writtenLable}}{{lan.written}}</pre>    
+    ----------
+</div>
+<h2>{{technologiesLable.title}}</h2>
+<div *ngFor="let tec of technologiesList">
+    <pre>{{tec}}</pre>
+</div>

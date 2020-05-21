@@ -1,4 +1,7 @@
-<p *ngFor="let edu of educationList">{{edu.since}}</p>
-<p *ngFor="let edu of educationList">{{edu.until}}</p>
-<p *ngFor="let edu of educationList">{{edu.establishment}}</p>
-<p *ngFor="let edu of educationList">{{edu.degree}}</p>
+<h1>{{educationTitleLable}}</h1>
+<div *ngFor="let edu of educationList">
+    <p>{{sinceLable}}{{edu.since}}</p>
+    <p>{{untilLable}}{{edu.until}}</p>
+    <p>{{establishmentLable}}{{edu.establishment}}</p>
+    <p>{{degreeLable}}{{edu.degree}}</p>
+</div>
