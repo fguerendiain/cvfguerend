@@ -44,24 +44,24 @@
   },
   "education":{
     "title":[
-      {"en":"Educación"},
-      {"es":"Education"}
+      {"en":"Education"},
+      {"es":"Educación"}
     ],
     "sinceLable":[
-      {"en":"Since: "},
-      {"es":"Desde: "}
+      {"en":"Since"},
+      {"es":"Desde"}
     ],
     "untilLable":[
-      {"en":"Until: "},
-      {"es":"Hasta: "}
+      {"en":"Until"},
+      {"es":"Hasta"}
     ],
     "establishmentLable":[
-      {"en":"Establishment: "},
-      {"es":"Establecimiento: "}
+      {"en":"Establishment"},
+      {"es":"Establecimiento"}
     ],
     "degreeLable":[
-      {"en":"Degree: "},
-      {"es":"Titulo: "}
+      {"en":"Degree"},
+      {"es":"Titulo"}
     ]  
   },
   "jobs":{
@@ -70,12 +70,12 @@
       {"es":"Experiencia Laboral"}
     ],
     "sinceLable":[
-      {"en":"Since: "},
-      {"es":"Desde: "}
+      {"en":"Since"},
+      {"es":"Desde"}
     ],
     "untilLable":[
-      {"en":"Until: "},
-      {"es":"Hasta: "}
+      {"en":"Until"},
+      {"es":"Hasta"}
     ],
     "enterpriseLable":[
       {"en":"Enterprise:\n"},
@@ -101,16 +101,16 @@
         {"es":"Cursos"}
       ],
       "placeLable":[
-        {"en":"Place: "},
-        {"es":"Lugar: "}
+        {"en":"Place"},
+        {"es":"Lugar"}
       ],
       "nameLable":[
-        {"en":"Name: "},
-        {"es":"Nombre: "}
+        {"en":"Name"},
+        {"es":"Nombre"}
       ],
       "descriptionLable":[
-        {"en":"Description: "},
-        {"es":"Descripcion: "}
+        {"en":"Description"},
+        {"es":"Descripcion"}
       ]
     },
     "languages":{
@@ -119,24 +119,24 @@
         {"es":"Idiomas"}
       ],
       "languageLable":[
-        {"en":"Language: "},
-        {"es":"Idioma: "}
+        {"en":"Language"},
+        {"es":"Idioma"}
       ],
       "oralLable":[
-        {"en":"Oral: "},
-        {"es":"Oral: "}
+        {"en":"Oral"},
+        {"es":"Oral"}
       ],
       "listenedLable":[
-        {"en":"Listened: "},
-        {"es":"Escuchado: "}
+        {"en":"Listened"},
+        {"es":"Escuchado"}
       ],
       "readLable":[
-        {"en":"Read: "},
-        {"es":"Leido: "}
+        {"en":"Read"},
+        {"es":"Leido"}
       ],
       "writtenLable":[
-        {"en":"Written: "},
-        {"es":"Escrito: "}
+        {"en":"Written"},
+        {"es":"Escrito"}
       ]
     },
     "technologiesLable":{

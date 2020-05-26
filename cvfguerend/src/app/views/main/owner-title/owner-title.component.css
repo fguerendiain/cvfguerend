@@ -1,5 +1,7 @@
+.text-titleContainerDiv{
+}
+
 .titleText{    
     color:rgb(153, 153, 153);
-    font-size: 1.5vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 4rem;
 }

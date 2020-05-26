@@ -1,4 +1,60 @@
-.mainView{
-    background-color: rgb(43, 43, 43);
-    padding: 3vw;
+.main-section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(30,30,30,0.7)
+    ),
+    url(../assets/background/mainBg.jpg) center 
+    no-repeat;
+    display: flex;
+    background-size: cover;
+}
+
+.cover{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.skils-section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(30,30,30,0.7)
+    ),
+    url(../assets/background/skillBg.jpg) center 
+    no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: top;
+}
+
+
+.jobs-section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(30,30,30,0.7)
+    ),
+    url(../assets/background/jobBg.jpg) center 
+    no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: top;
 }

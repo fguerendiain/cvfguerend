@@ -1,7 +1,13 @@
-<h1>{{educationTitleLable}}</h1>
-<div *ngFor="let edu of educationList">
-    <p>{{sinceLable}}{{edu.since}}</p>
-    <p>{{untilLable}}{{edu.until}}</p>
-    <p>{{establishmentLable}}{{edu.establishment}}</p>
-    <p>{{degreeLable}}{{edu.degree}}</p>
+<div class='educationDivContainer'>
+
+    <h1 class= 'educationTitle' >{{educationTitleLable}}</h1>
+
+    <div class= 'educationList' *ngFor="let edu of educationList">
+        <p>{{edu.since}} - {{edu.until}}</p>
+        <p>{{edu.establishment}}</p>
+        <div class="degreeContainerDiv">
+            <div class="degree">{{degreeLable}}:</div>
+            <div class="degreeDesc">{{edu.degree}}</div>
+        </div>
+    </div>
 </div>

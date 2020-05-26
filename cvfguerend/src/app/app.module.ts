@@ -22,6 +22,7 @@ import { OwnerContactComponent } from './views/main/owner-contact/owner-contact.
 import { EducationComponent } from './views/resume/education/education.component';
 import { JobsComponent } from './views/resume/jobs/jobs.component';
 import { KnowledgeComponent } from './views/resume/knowledge/knowledge.component';
+import { OwnerAvatarComponent } from './views/main/owner-avatar/owner-avatar.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { KnowledgeComponent } from './views/resume/knowledge/knowledge.component
     OwnerContactComponent,
     EducationComponent,
     JobsComponent,
-    KnowledgeComponent
+    KnowledgeComponent,
+    OwnerAvatarComponent
   ],
   imports: [
     BrowserModule,

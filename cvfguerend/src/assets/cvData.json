@@ -52,8 +52,8 @@
     }
     },
     "resume":{
-      "education":[{
-        "since":[
+      "education":[
+        {"since":[
           {"en":"02.2016"},
           {"es":"02.2016"}
         ],
@@ -68,8 +68,8 @@
         "degree":[
           {"en":"Senior technician in programing"},
           {"es":"Tecnicatura Superior en programacion"}
-        ]
-      }],
+        ]}
+      ],
       "knowledge":{
         "courses":[
           {

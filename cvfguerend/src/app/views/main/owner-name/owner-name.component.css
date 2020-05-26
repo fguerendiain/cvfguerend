@@ -1,24 +1,30 @@
+.ownerDataContainerDiv{
+}
+    
 .firstName{
-    color: rgb(143, 0, 0);
-    text-shadow: 0.1vw 0.1vw rgb(51, 0, 0);
-    text-shadow: -0.1vw 0vw black, 0vw 0.1vw black, 0.1vw 0vw black, 0vw -0.1vw black;
-    font-size: 2.5vw;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
-    padding-bottom: 2vw;
+    color: rgb(200, 0, 0);
+    text-shadow: 0.1rem 0.1rem rgb(51, 0, 0);
+    text-shadow: 
+        -0.1rem 0rem black, 
+         0rem 0.1rem black, 
+         0.1rem 0rem black, 
+         0rem -0.1rem black;
+    font-size: 6rem;
+    font-weight: 550;
+    padding-bottom: 4rem;
+
 
 }
 
 .lastName{
     color:rgb(216, 216, 216);
-    text-shadow: 0.1vw 0.1vw rgb(95, 95, 95);
-    text-shadow: -0.1vw 0vw black, 0vw 0.1vw black, 0.1vw 0vw black, 0vw -0.1vw black;
-    font-size: 3vw;
-    font-family: "Times New Roman", Times, serif;
-    padding-bottom: 2vw;
+    text-shadow: 0.1rem 0.1rem rgb(95, 95, 95);
+    text-shadow: 
+        -0.1rem 0rem black, 
+         0rem 0.1rem black, 
+         0.1rem 0rem black, 
+         0rem -0.1rem black;
+    font-size: 6rem;
+    padding-left: 2.5rem;
 }
 
-.ownerDataContainerDiv{
-background-color: transparent;
-
-}

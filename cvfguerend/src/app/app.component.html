@@ -1,3 +1,25 @@
+<div class="main-section">
+  <div class="cover">
+    <app-owner-name></app-owner-name>
+    <app-owner-avatar></app-owner-avatar>
+    <app-owner-title [selectedLang] = "selectedLang" ></app-owner-title>
+  </div>
+  <div class="bio-section">
+    <app-owner-bio [selectedLang] = "selectedLang" ></app-owner-bio>
+  </div>
+</div>
+<div class="skils-section">
+  <app-education [selectedLang] = "selectedLang"></app-education>
+</div>
+<div class="jobs-section">
+  <app-jobs [selectedLang] = "selectedLang"></app-jobs>
+</div>
+
+
+
+
+
+<!--
 <div class =mainView>
   <app-owner-name></app-owner-name>
   <app-owner-title [selectedLang] = "selectedLang" ></app-owner-title>
@@ -23,3 +45,4 @@
 <div>
   <app-jobs [selectedLang] = "selectedLang"></app-jobs>
 </div>
+-->
