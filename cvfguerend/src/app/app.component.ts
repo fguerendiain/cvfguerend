@@ -6,17 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  
   title = 'cvfguerend';
 
   selectedLang = 'en';
 
-  onClickCambiarIdioma(){
-    if (this.selectedLang === 'en'){
-      this.selectedLang = 'es';
-    }else{
-      this.selectedLang = 'en';
-    }
-  }
-
-
 }
+
+

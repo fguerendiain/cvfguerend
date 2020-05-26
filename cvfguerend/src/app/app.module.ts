@@ -23,6 +23,7 @@ import { EducationComponent } from './views/resume/education/education.component
 import { JobsComponent } from './views/resume/jobs/jobs.component';
 import { KnowledgeComponent } from './views/resume/knowledge/knowledge.component';
 import { OwnerAvatarComponent } from './views/main/owner-avatar/owner-avatar.component';
+import { LanguageSelectorComponent } from './views/main/language-selector/language-selector.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { OwnerAvatarComponent } from './views/main/owner-avatar/owner-avatar.com
     EducationComponent,
     JobsComponent,
     KnowledgeComponent,
-    OwnerAvatarComponent
+    OwnerAvatarComponent,
+    LanguageSelectorComponent
   ],
   imports: [
     BrowserModule,

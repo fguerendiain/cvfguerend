@@ -1,0 +1,11 @@
+.btnLanguage{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border-style: inset;
+    border-color:rgba(153, 153, 153,0.9);
+    border-width: 0.2rem;
+    cursor: pointer;
+    margin: 1rem;
+
+}
