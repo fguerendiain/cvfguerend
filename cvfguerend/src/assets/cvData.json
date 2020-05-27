@@ -12,22 +12,22 @@
         {"en":"Professional Profile"}
       ],
       "text":[
-        {"es":"Cuento con experiencia y conocimientos técnicos generales en cuanto a redes e infraestructura.\nSoy una persona pro-activa y con capacidad para formar parte de un equipo en el que se busque permanentemente la eficiencia y la constante capacitación.\nDeseo poder crecer profesional y personalmente en el mercado laboral del desarrollo de software."},
+        {"es":"Cuento con experiencia y conocimientos técnicos generales en cuanto a redes e infraestructura.\nSoy una persona proactiva y con capacidad para formar parte de un equipo en el que se busque permanentemente la eficiencia y la constante capacitación.\nDeseo poder crecer profesional y personalmente en el mercado laboral del desarrollo de software."},
         {"en":"I am a proactive person and like to be part of a team which seeks for permanent efficiency and constant learning.\nCount with experience on support and maintenance of applications, and management of networks and infrastructure\nI wish to build a solid and professional career in the software development market."}
       ]
     },
     "contact":{
       "phone":{
-        "icon":"./ico/phone.png",
+        "icon":"phoneIco.png",
         "number": "+541161032207",
         "mask": "+54 11 6103-2207"
       },
       "email": {
-        "icon":"./ico/email.png",
+        "icon":"mailIco.png",
         "address": "fguerendiain33@gmail.com"
       },
       "links":[{
-        "icon":"./ico/linkedin.png",
+        "icon":"linkedinIco.png",
         "site": "Linkedin",
         "url": "https://ar.linkedin.com/in/fguerendiain"
       }],
@@ -126,13 +126,13 @@
           ]}
         ],
         "technologies":[
-          "C","C#","Java","HTML5","CSS","Bootstrap","JavaScript","PHP","TypeScript","PostgreSQL",
-          "Android","Python","NodeJS","Oracle SQL","GIT","VisualStudio","VS Code","Tomcat","Maven","Jenkins","Nexus","Eclipse","Angular"
+          "HTML5","CSS","JavaScript","TypeScript","PostgreSQL",
+          "NodeJS","Oracle SQL","GIT","Angular"
         ]},
       "jobs":[
         {"since":[
-          {"en":"10.2019"},
-          {"es":"10.2019"}
+          {"en":"October 2019"},
+          {"es":"Octubre 2019"}
         ],
         "until":[
           {"en":"Present"},
@@ -151,12 +151,12 @@
           {"es":"-Desarrollo Full Stack sobre Java, Hibernate, Spring ,Tomcat, OracleSql.\n(Proyecto personal dentro de la empresa)\n-Diseño, desarrollo, mantenimiento, e implementación de aplicación full stack everis-run-helper-app sobre NodeJS, TypeScript y Angular 6 para la automatización de procesos"}
         ]},
         {"since":[
-          {"en":"09.2017"},
-          {"es":"09.2017"}
+          {"en":"September 2017"},
+          {"es":"Septiembre 2017"}
         ],
         "until":[
-          {"en":"10.2019"},
-          {"es":"10.2019"}
+          {"en":"October 2019"},
+          {"es":"Octubre 2019"}
         ],
         "enterprise":[
           {"en":"EVERIS Argentina."},
@@ -172,12 +172,12 @@
         ]},
 
         {"since":[
-          {"en":"12.2012"},
-          {"es":"12.2012"}
+          {"en":"December 2012"},
+          {"es":"Diciembre 2012"}
         ],
         "until":[
-          {"en":"09.2017"},
-          {"es":"09.2017"}
+          {"en":"September 2017"},
+          {"es":"Septiembre 2017"}
         ],
         "enterprise":[
           {"en":"GRUPO AGG"},
@@ -190,28 +190,7 @@
         "description":[
           {"en":"-Setup, configuration, maintenance and repair of hardware park (final users and servers) (Windows XP, Windows 7, Windows 10, Windows Server, Linux Mint, Debian, Ubuntu).\n-Task automatization.\n-Setup, cabling and maintenance of networks.\n-Maintenance and setup of surveillance cctv systems with platforms Dahua and Geovision.\n-Build and setup of computer center.\n-Control and test of internet links, claim to suppliers and tracing.\n-Management and maintenance of telephone exchange.\n-Control and user management for different systems.\n-Building of process and task control, documentation and archive. Assistant of Budget Control, stock and administrative tasks related to the sector."},
           {"es":"-Armado, configuración, mantenimiento y reparación de parque informático (servidores y usuarios finales) (Windows XP, Windows 7, Windows 10, Windows Server, Linux Mint, Debian, Ubuntu).\n-Automatización de tareas.\n-Armado, cableado y mantenimiento de redes.\n-Mantenimiento, armado y configuración de sistema de vigilancia cctv con plataformas Dahua y Geovision.\n-Armado y configuración de centro de cómputos.\n-Control y prueba de enlaces de Internet, reclamo a proveedores y seguimiento.\n-Gestión y mantenimiento de central telefónica.\n-Control y gestión de usuarios para los diferentes sistemas.\n-Armado de procesos y control de tareas, documentación y archivo, asistente en control de presupuesto, control de stock y tareas administrativas relacionadas al sector."}
-        ]},
-        {"since":[
-          {"en":"05.2007"},
-          {"es":"05.2007"}
-        ],
-        "until":[
-          {"en":"12.2012"},
-          {"es":"12.2012"}
-        ],
-        "enterprise":[
-          {"en":"GRUPO AGG"},
-          {"es":"GRUPO AGG"}
-        ],
-        "summary":[
-          {"en":"Shopping Analyst"},
-          {"es":""}
-        ],
-        "description":[
-          {"en":"Staff training about the shopping circuit in the companies, commodity reception, facturation control, dealing with suppliers, price negotiations and payment conditions, claims support, shopping order emission. In charge of shopping, tracing and supervision relevant to most sectors of “Bingo Avellaneda”. Control and analysis of volumes and stock."},
-          {"es":"Entrenamiento del personal de la empresa en el circuito de compras, recepción de mercadería, control de facturación, trato con proveedores, negociación de precios y condiciones de pago, reclamo de soporte, emisión de ordenes de compra. A cargo de las compras, seguimiento y supervisión relevante a la mayoría de los sectores de “Bingo Avellaneda”. Control y análisis de volúmenes y stock."}
         ]}
-
         ]
     }
 }

@@ -2,6 +2,10 @@
   "language-selector":["es","en"],
 
   "mailForm":{
+    "lblContactTitle":[
+      {"en":"Contact Me"},
+      {"es":"Contacto"}
+    ],
     "lblEmail":[
       {"en":"Email"},
       {"es":"Correo Electronico"}
@@ -94,8 +98,8 @@
   },
   "knowledge":{
     "title":[
-      {"en":"Other Knowledge"},
-      {"es":"Otros Conocimientos"}
+      {"en":"Skils"},
+      {"es":"Conocimientos"}
     ],
     "course":{
       "title":[

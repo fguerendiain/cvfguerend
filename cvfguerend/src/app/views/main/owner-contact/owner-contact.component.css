@@ -1,25 +1,56 @@
 .contactContainerDiv{
     width: 100%;
     display: flex;
+    background-color: rgba(153, 153, 153,0.2);
+    border-style: inset;
+    border-width: 0.5rem;
+    border-radius: 5rem;    
+
 }
 
 .phoneContainer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .emailContainer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .linkContainer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.icoImg{
+    background-color: rgb(153, 153, 153);;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border-style: inset;
+    border-color:rgba(153, 153, 153,0.9);
+    border-width: 0.2rem;
+    cursor: pointer;
+    margin: 1rem;    
+}
+
+.icoImg:hover{
+    border-width: 0.3rem;
+    border-color:rgb(200, 0, 0);
 }

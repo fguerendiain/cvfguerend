@@ -40,6 +40,7 @@ export class MailFormComponent {
 
   matcher = new MyErrorStateMatcher();
 
+  lblContactTitle:string;
   lblEmail: string;
   placeHolderEmail: string;
   tooltipEmail1: string;
@@ -71,6 +72,7 @@ export class MailFormComponent {
 
   // tslint:disable-next-line: use-lifecycle-interface
   ngOnChanges(changes: SimpleChanges) {
+    this.lblContactTitle = Utils.getTranslation(this.selectedLang,SYSCONFIG.lblContactTitle);
     this.lblEmail = Utils.getTranslation(this.selectedLang, SYSCONFIG.lblEmail);
     this.placeHolderEmail = Utils.getTranslation(this.selectedLang, SYSCONFIG.placeHolderEmail);
     this.tooltipEmail1 = Utils.getTranslation(this.selectedLang, SYSCONFIG.tooltipEmail1);

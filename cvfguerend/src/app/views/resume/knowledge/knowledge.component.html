@@ -1,20 +1,31 @@
-<h1>{{knowledgeTitleLable}}</h1>
-<h2>{{courseLables.title}}</h2>
-<div *ngFor="let cur of coursesList">
-    <pre>{{courseLables.placeLable}}{{cur.place}}</pre>
-    <pre>{{courseLables.nameLable}}{{cur.name}}</pre>
-    <pre>{{courseLables.descriptionLable}}{{cur.Description}}</pre>    
+<div class="knowledgeContainerDiv">
+    <h1 class="knowledgeTitle"> {{knowledgeTitleLable}}</h1>
+
+<!--
+    <div class="sectionContainer">
+        <h2 class="sectionTitle" >{{courseLables.title}}</h2>
+        <div *ngFor="let cur of coursesList">
+            <pre>{{courseLables.placeLable}}{{cur.place}}</pre>
+            <pre>{{courseLables.nameLable}}{{cur.name}}</pre>
+            <pre>{{courseLables.descriptionLable}}{{cur.Description}}</pre>    
+        </div>
+    </div>
+-->
+    <div class="sectionContainer">
+        <h2 class="sectionTitle">{{languagesLables.title}}</h2>
+        <div class= "languagesList" *ngFor="let lan of languagesList">
+            <p class="languegeName">{{lan.language}}</p>
+            <p>{{languagesLables.oralLable}}: {{lan.oral}}
+                - {{languagesLables.listenedLable}}: {{lan.listened}}
+                - {{languagesLables.readLable}}: {{lan.read}}
+                - {{languagesLables.writtenLable}}: {{lan.written}}</p>    
+        </div>
+    </div>
+    <div class="sectionContainer">
+        <h2 class="sectionTitle">{{technologiesLable.title}}</h2>
+        <div class="technologiesList" *ngFor="let tec of technologiesList">
+            {{tec}}
+        </div>
+    </div>
 </div>
-<h2>{{languagesLables.title}}</h2>
-<div *ngFor="let lan of languagesList">
-    <pre>{{languagesLables.languageLable}}{{lan.language}}</pre>
-    <pre>{{languagesLables.oralLable}}{{lan.oral}}</pre>
-    <pre>{{languagesLables.listenedLable}}{{lan.listened}}</pre>
-    <pre>{{languagesLables.readLable}}{{lan.read}}</pre>    
-    <pre>{{languagesLables.writtenLable}}{{lan.written}}</pre>    
-    ----------
-</div>
-<h2>{{technologiesLable.title}}</h2>
-<div *ngFor="let tec of technologiesList">
-    <pre>{{tec}}</pre>
-</div>
+

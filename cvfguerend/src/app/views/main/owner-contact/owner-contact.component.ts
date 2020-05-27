@@ -33,19 +33,25 @@ export class OwnerContactComponent implements OnInit {
   }
 
   getPhoneData(){
-    this.phoneIcon = Data.owner.contact.phone.icon;
+    this.phoneIcon = "../../assets/ico/" + Data.owner.contact.phone.icon;
     this.phoneNumber = 'tel:' + Data.owner.contact.phone.number;
     this.phoneMask = Data.owner.contact.phone.mask;
   }
 
   getEmailData(){
-    this.phoneIcon = Data.owner.contact.email.icon;
+    this.emailIcon = "../../assets/ico/" + Data.owner.contact.email.icon;
     this.emailAddress = 'mailto:' + Data.owner.contact.email.address;
     this.emailMask = Data.owner.contact.email.address;
   }
   getLinksData(){
     Data.owner.contact.links.forEach(link => {
-      this.links.push(link);
+      this.links.push(
+        {
+          icon: "../../assets/ico/" + link.icon,
+          site: link.site,
+          url: link.url,
+        }
+        );
     });
   }
 

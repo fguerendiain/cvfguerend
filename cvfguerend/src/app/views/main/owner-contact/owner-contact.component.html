@@ -1,14 +1,14 @@
 <div class="contactContainerDiv">
   <div class="phoneContainer">
-    <a href={{phoneNumber}}>{{phoneMask}}</a>
+    <a href={{phoneNumber}}><img class="icoImg" src={{phoneIcon}} alt=""></a>
   </div>
   
   <div class="emailContainer">
-    <a href={{emailAddress}}>{{emailMask}}</a>
+    <a href={{emailAddress}}><img class="icoImg" src={{emailIcon}} alt=""></a>
   </div>
   
   <div class="linkContainer">
-      <a *ngFor="let link of links" href={{link.url}}>{{link.site}}</a>
+      <a *ngFor="let link of links" href={{link.url}}><img class="icoImg" src={{link.icon}} alt=""></a>
   </div>
 </div>
 

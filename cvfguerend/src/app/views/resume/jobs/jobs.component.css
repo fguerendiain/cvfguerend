@@ -22,25 +22,47 @@
 
 .jobListContainerDiv{
     width: 100%;
-    display: flex;
-}
-
-.jobList{
-    flex-wrap: wrap;
     background-color: rgba(153, 153, 153,0.2);
     border-style: inset;
     border-width: 0.5rem;
     border-radius: 5rem;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+}
+
+.jobList{
+    align-content: center;
     font-size: 1rem;
-    line-height: 3rem;
-    padding: 4rem;
-    border-style: inset;
-    border-width: 0.5rem;
-    border-radius: 5rem;
+    padding: 1rem;
     margin: 1.5rem;
 }
 
+.jobList.pre{
+    white-space: pre-wrap;
+}
 
+.jobHeader{
+    display: flex;
+}
+
+.jobHeaderEnterprise{
+    width: 15%;
+    flex-direction: column;
+    color: rgb(200, 0, 0);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.jobHeaderDates{
+    width: 85%;
+    flex-direction: column;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.jobSummary{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.jobDescription{
+    margin-left: 1rem;
+}

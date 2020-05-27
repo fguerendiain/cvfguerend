@@ -1,0 +1,47 @@
+.knowledgeContainerDiv{
+    color:rgb(153, 153, 153);
+}
+
+.knowledgeTitle{
+    padding-top: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 6rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 450;
+    text-shadow: 0.1rem 0.1rem rgb(95, 95, 95);
+    text-shadow: 
+        -0.1rem 0rem black, 
+         0rem 0.1rem black, 
+         0.1rem 0rem black, 
+         0rem -0.1rem black;
+    padding-bottom: 5rem;
+
+}
+.sectionContainer{
+    background-color: rgba(153, 153, 153,0.2);
+    border-style: inset;
+    border-width: 0.5rem;
+    border-radius: 3rem;
+    margin: 5rem;
+    padding: 2rem;
+}
+
+.sectionTitle{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.languegeName{
+    font-weight: bold;
+}
+
+.technologiesList{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

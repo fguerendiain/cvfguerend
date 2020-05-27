@@ -12,43 +12,17 @@
   </header>
 </div>
 <div class="skils-section">
-  <app-education [selectedLang] = "selectedLang"></app-education>
-  <!--<app-knowledge [selectedLang] = "selectedLang"></app-knowledge>--> 
+  <!--<app-education [selectedLang] = "selectedLang"></app-education>-->
+  <app-knowledge [selectedLang] = "selectedLang"></app-knowledge> 
 </div>
 <div class="jobs-section">
   <app-jobs [selectedLang] = "selectedLang"></app-jobs>
 </div>
-<div class="contact-section">
-  <app-owner-contact [selectedLang] = "selectedLang"></app-owner-contact>
+<div class="footerSection">
+  <div class="mail-form-section">
+    <app-mail-form [selectedLang] = "selectedLang"></app-mail-form>
+  </div>
+  <div class="contact-section">
+      <app-owner-contact [selectedLang] = "selectedLang"></app-owner-contact>
+  </div>
 </div>
-
-
-
-
-<!--
-<div class =mainView>
-  <app-owner-name></app-owner-name>
-  <app-owner-title [selectedLang] = "selectedLang" ></app-owner-title>
-</div>
-<div class =mainView>
-  <button (click)= "onClickCambiarIdioma()" >IDIOMA</button>
-</div>
-<div>
-  <app-owner-bio [selectedLang] = "selectedLang" ></app-owner-bio>
-</div>
-<div>
-  <app-mail-form [selectedLang] = "selectedLang"></app-mail-form>
-</div>
-<div>
-  <app-owner-contact [selectedLang] = "selectedLang"></app-owner-contact>
-</div>
-<div>
-  <app-education [selectedLang] = "selectedLang"></app-education>
-</div>
-<div>
-  <app-knowledge [selectedLang] = "selectedLang"></app-knowledge>
-</div>
-<div>
-  <app-jobs [selectedLang] = "selectedLang"></app-jobs>
-</div>
--->

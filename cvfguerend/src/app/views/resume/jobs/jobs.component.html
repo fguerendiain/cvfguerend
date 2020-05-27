@@ -4,10 +4,12 @@
 
     <div class="jobListContainerDiv">
         <div class= 'jobList' *ngFor="let job of jobList">
-            <p>{{job.since}} - {{job.until}}</p>
-            <p>{{job.enterprise}}</p>
-            <p>{{job.summary}}:</p>
-            <p>{{job.description}}</p>
+            <div class="jobHeader">
+                <p class= "jobHeaderEnterprise">{{job.enterprise}}</p>
+                <p class= "jobHeaderDates">{{job.since}} ~ {{job.until}}</p>
+            </div>
+            <p class="jobSummary">{{job.summary}}:</p>
+            <pre class="jobDescription">{{job.description}}</pre>
         </div>
    </div>
 </div>
