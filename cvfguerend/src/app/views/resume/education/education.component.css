@@ -23,8 +23,10 @@
 .educationList{
     font-size: 2rem;
     padding: 4rem;
+    background-color: rgba(153, 153, 153,0.2);
     border-style: inset;
     border-width: 0.5rem;
+    border-radius: 5rem;
     margin-bottom: 1.5rem;
 }
 

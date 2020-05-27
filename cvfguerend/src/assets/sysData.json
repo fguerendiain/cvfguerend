@@ -1,4 +1,6 @@
 {
+  "language-selector":["es","en"],
+
   "mailForm":{
     "lblEmail":[
       {"en":"Email"},

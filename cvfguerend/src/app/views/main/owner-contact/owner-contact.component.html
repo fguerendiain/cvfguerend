@@ -1,11 +1,14 @@
-<div>
-  <a href={{phoneNumber}}>{{phoneMask}}</a>
+<div class="contactContainerDiv">
+  <div class="phoneContainer">
+    <a href={{phoneNumber}}>{{phoneMask}}</a>
+  </div>
+  
+  <div class="emailContainer">
+    <a href={{emailAddress}}>{{emailMask}}</a>
+  </div>
+  
+  <div class="linkContainer">
+      <a *ngFor="let link of links" href={{link.url}}>{{link.site}}</a>
+  </div>
 </div>
 
-<div>
-  <a href={{emailAddress}}>{{emailMask}}</a>
-</div>
-
-<div>
-    <a *ngFor="let link of links" href={{link.url}}>{{link.site}}</a>
-</div>

@@ -9,7 +9,11 @@ export class AppComponent {
   
   title = 'cvfguerend';
 
-  selectedLang = 'en';
+  selectedLang:string = 'en';
+
+  setLanguage(lang){
+    this.selectedLang = lang;
+  }
 
 }
 

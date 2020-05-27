@@ -9,3 +9,8 @@
     margin: 1rem;
 
 }
+
+.btnLanguage:hover{
+    border-width: 0.3rem;
+    border-color:rgb(200, 0, 0);
+}

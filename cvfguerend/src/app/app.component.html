@@ -8,16 +8,19 @@
     <app-owner-bio [selectedLang] = "selectedLang" ></app-owner-bio>
   </div>
   <header class= "main-header">
-    <app-language-selector selectedLang = [selectedLang]></app-language-selector>
+    <app-language-selector (selectedLang) = "setLanguage($event)"></app-language-selector>
   </header>
 </div>
 <div class="skils-section">
   <app-education [selectedLang] = "selectedLang"></app-education>
+  <!--<app-knowledge [selectedLang] = "selectedLang"></app-knowledge>--> 
 </div>
 <div class="jobs-section">
   <app-jobs [selectedLang] = "selectedLang"></app-jobs>
 </div>
-
+<div class="contact-section">
+  <app-owner-contact [selectedLang] = "selectedLang"></app-owner-contact>
+</div>
 
 
 

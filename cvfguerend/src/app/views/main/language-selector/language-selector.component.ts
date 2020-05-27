@@ -1,6 +1,5 @@
-import { Component, OnInit, Output, SimpleChanges } from '@angular/core';
-import * as Data from '../../../../assets/cvData.json';
-import * as Utils from '../../../Utils';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import * as Data from '../../../../assets/sysData.json';
 
 @Component({
   selector: 'app-language-selector',
@@ -8,25 +7,30 @@ import * as Utils from '../../../Utils';
   styleUrls: ['./language-selector.component.css']
 })
 export class LanguageSelectorComponent implements OnInit {
-  @Output() selectedLang;
-
+  @Output() selectedLang: EventEmitter<any> = new EventEmitter<any>();
+  
   constructor() { 
   }
 
-
+  languageList:string[];
 
   ngOnInit(): void {
+    this.languageList = Data["language-selector"];
   }
 
-  ngOnChanges(changes: SimpleChanges){
+  onClickChangeLanguage(event){
+    var target = event.target || event.srcElement || event.currentTarget;
+    var idAttr = target.attributes;
+    var value = idAttr.alt.value;
+    this.sendValue(value);
   }
 
-  onClickChangeLanguage(){
-    if (this.selectedLang === 'en'){
-      this.selectedLang = 'es';
-    }else{
-      this.selectedLang = 'en';
-    }
-    console.log(this.selectedLang)
+  public sendValue(value: any): void{
+    this.selectedLang.emit(value);
+    
+  }
+
+  imgURLBuilder(prop){
+    return "./../../../assets/ico/"+prop+"Ico.jpg"
   }
 }
