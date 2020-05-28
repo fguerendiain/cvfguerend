@@ -1,3 +1,5 @@
-<div *ngFor="let lan of languageList" class="selectorContentDiv">
-        <img class="btnLanguage" [src]= "imgURLBuilder(lan)" alt={{lan}} (click)="onClickChangeLanguage($event)">        
+<div class="selectorContentDiv">
+        <div *ngFor="let lan of languageList">
+                <img class="btnLanguage" [src]= "imgURLBuilder(lan)" alt={{lan}} (click)="onClickChangeLanguage($event)">        
+        </div>
 </div>

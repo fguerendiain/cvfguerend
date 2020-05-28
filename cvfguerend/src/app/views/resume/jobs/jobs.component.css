@@ -3,7 +3,7 @@
 }
 
 .jobTitle{
-    padding-top: 5rem;
+    padding-top: 10rem;
     text-transform: uppercase;
     text-align: center;
     font-size: 6rem;
@@ -66,3 +66,35 @@
 .jobDescription{
     margin-left: 1rem;
 }
+
+
+@media(max-width: 900px){
+    
+    .jobDescription{
+        width: 80%;
+    }
+}
+
+
+@media(max-width: 800px){
+    
+    .jobTitle{
+        padding-top: 10rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3rem;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 450;
+        text-shadow: 0.1rem 0.1rem rgb(95, 95, 95);
+        text-shadow: 
+            -0.1rem 0rem black, 
+             0rem 0.1rem black, 
+             0.1rem 0rem black, 
+             0rem -0.1rem black;
+        padding-bottom: 1rem;
+    
+    }
+}
+
+

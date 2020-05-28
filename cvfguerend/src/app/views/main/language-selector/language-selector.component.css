@@ -14,3 +14,24 @@
     border-width: 0.3rem;
     border-color:rgb(200, 0, 0);
 }
+
+@media(max-width: 800px){
+    .selectorContentDiv{
+        width: 100%;
+        display: flex;
+    }
+
+    .btnLanguage{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        border-style: inset;
+        border-color:rgba(153, 153, 153,0.9);
+        border-width: 0.2rem;
+        cursor: pointer;
+        margin:1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -12,3 +12,18 @@
     line-height: 2rem;
     font-style: italic;    
 }
+
+@media(max-width: 800px){
+    .bio-textContainerDiv{
+        padding-right: 0;    
+    }
+    
+    .bio-text{
+        white-space: pre-wrap;
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+        font-style: italic;    
+    }
+}

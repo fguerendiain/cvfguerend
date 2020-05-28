@@ -5,3 +5,10 @@
     color:rgb(153, 153, 153);
     font-size: 4rem;
 }
+
+
+@media(max-width: 800px){
+    .titleText{    
+        font-size: 2rem;
+    }
+}

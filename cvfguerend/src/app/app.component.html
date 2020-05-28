@@ -1,4 +1,4 @@
-<div class="main-section">
+<section class="main-section" id = "main-section">
     <div class="cover">
     <app-owner-name></app-owner-name>
     <app-owner-avatar></app-owner-avatar>
@@ -7,22 +7,25 @@
   <div class="bio-section">
     <app-owner-bio [selectedLang] = "selectedLang" ></app-owner-bio>
   </div>
-  <header class= "main-header">
-    <app-language-selector (selectedLang) = "setLanguage($event)"></app-language-selector>
-  </header>
-</div>
-<div class="skils-section">
+  <div class= "main-header">
+    <app-language-selector  (selectedLang) = "setLanguage($event)"></app-language-selector>
+  </div>
+</section>
+<nav class="navbar-section" id="navBar">
+  <app-navbar [selectedLang] = "selectedLang"></app-navbar>
+</nav>
+<section class="skils-section" id = "skils-section">
   <!--<app-education [selectedLang] = "selectedLang"></app-education>-->
   <app-knowledge [selectedLang] = "selectedLang"></app-knowledge> 
-</div>
-<div class="jobs-section">
+</section>
+<section class="jobs-section" id = "jobs-section">
   <app-jobs [selectedLang] = "selectedLang"></app-jobs>
-</div>
-<div class="footerSection">
+</section>
+<section class="footerSection" id = "footerSection">
   <div class="mail-form-section">
     <app-mail-form [selectedLang] = "selectedLang"></app-mail-form>
   </div>
   <div class="contact-section">
       <app-owner-contact [selectedLang] = "selectedLang"></app-owner-contact>
   </div>
-</div>
+</section>

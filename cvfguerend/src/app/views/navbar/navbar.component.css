@@ -1,0 +1,66 @@
+.navBarContainerDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.navBar::before{
+    content:"";
+    width: 0%;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: rgba(200,0,0,.4);
+    position: absolute;
+    transition: width 0.2s;
+    z-index: 2;
+}
+
+.navBar:hover::before{
+    width: 100%;
+    z-index: 3;
+}
+
+.change.navBar::before{
+    width: 100%;
+    background-color: rgba(200,0,0,0.2);
+    z-index: 3;
+}
+
+
+.navBar-link{
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-style: italic;
+    color:rgb(153, 153, 153);
+    margin: 0 3rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    padding: 0.3rem;
+    transition: color 0.2s;
+    position: relative;
+    z-index: 4;
+}
+
+.navBar-link:hover{
+    color:rgb(255,255,255);
+    position: relative;
+    z-index: 5;
+}
+
+.change.navBar-link{
+    color:rgb(255,255,255);
+    position: relative;
+    z-index: 5;
+}
+

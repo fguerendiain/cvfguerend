@@ -15,3 +15,15 @@
     padding: 0.5rem;
     background-color: rgba(0,0,0,0.4);
 }
+
+@media(max-width: 800px){
+    .owner-avatar-img{
+        width: 15rem;
+        height: 15rem;
+        margin: 1rem;
+    }
+
+    .owner-avatar-imgContainerDiv{
+        padding: 1rem;
+    }
+}

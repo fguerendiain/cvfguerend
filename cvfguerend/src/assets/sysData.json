@@ -1,6 +1,23 @@
 {
   "language-selector":["es","en"],
-
+  "navbar":{
+    "home":[
+      {"en":"Home"},
+      {"es":"Inicio"}
+    ],
+    "skills":[
+      {"en":"Skils"},
+      {"es":"Conocimientos"}
+    ],
+    "jobs":[
+      {"en":"Experience"},
+      {"es":"Experiencia"}
+    ],
+    "contact":[
+      {"en":"Contact"},
+      {"es":"Contacto"}
+    ]
+  },
   "mailForm":{
     "lblContactTitle":[
       {"en":"Contact Me"},

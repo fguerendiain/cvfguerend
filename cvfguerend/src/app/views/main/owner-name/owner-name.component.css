@@ -1,4 +1,6 @@
 .ownerDataContainerDiv{
+    width: 100%;
+    height: 100vd;
 }
     
 .firstName{
@@ -28,3 +30,13 @@
     padding-left: 2.5rem;
 }
 
+@media(max-width: 800px){
+    .firstName{
+        font-size: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .lastName{
+        font-size: 3rem;
+    }
+}

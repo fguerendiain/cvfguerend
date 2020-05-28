@@ -36,6 +36,27 @@
 }
 
 
+.navbar-section{
+    width: 100%;
+    height: 5vh;
+    background: rgba(200,0,0,1) linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(30,30,30,0.5)
+    );
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: top;
+    box-shadow: .2rem, .2rem, .5rem #333;
+    position: absolute;
+    z-index: 300;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+}
+
 .skils-section{
     width: 100%;
     height: 100vh;
@@ -70,7 +91,6 @@
 
 .footerSection{
     width: 100%;
-    height: 70vh;
     background: linear-gradient(
         rgba(0, 0, 0, 0.9),
         rgba(30,30,30,0.7)
@@ -80,14 +100,61 @@
 }
 
 .mail-form-section{
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: top;
 }
 
 .contact-section{
-    margin-top: 3rem;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: top;
+}
+
+
+@media(max-width: 900px){
+    .jobs-section{
+        height: fit-content;
+        }
+}
+
+
+@media(max-width: 800px){
+    .main-section{
+        display: inline-block;
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .cover{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bio-section{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-header{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skils-section{
+        height: fit-content;
+    }
 }
