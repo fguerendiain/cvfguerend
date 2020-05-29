@@ -35,8 +35,12 @@
     margin: 1.5rem;
 }
 
-.jobList.pre{
-    white-space: pre-wrap;
+pre{
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 .jobHeader{
@@ -68,32 +72,13 @@
 }
 
 
-@media(max-width: 900px){
-    
-    .jobDescription{
-        width: 80%;
-    }
-}
-
 
 @media(max-width: 800px){
     
     .jobTitle{
-        padding-top: 10rem;
-        text-transform: uppercase;
-        text-align: center;
         font-size: 3rem;
-        font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 450;
-        text-shadow: 0.1rem 0.1rem rgb(95, 95, 95);
-        text-shadow: 
-            -0.1rem 0rem black, 
-             0rem 0.1rem black, 
-             0.1rem 0rem black, 
-             0rem -0.1rem black;
-        padding-bottom: 1rem;
-    
+        padding-top: 5rem;
+        padding-bottom: 1.5rem;
     }
 }
 

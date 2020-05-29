@@ -26,11 +26,18 @@
         "icon":"mailIco.png",
         "address": "fguerendiain33@gmail.com"
       },
-      "links":[{
+      "links":[
+        {
         "icon":"linkedinIco.png",
         "site": "Linkedin",
         "url": "https://ar.linkedin.com/in/fguerendiain"
-      }],
+        },
+        {
+          "icon":"gitlabIco.png",
+          "site": "GitLub",
+          "url": "https://gitlab.com/fguerendiain33"
+          }
+      ],
       "address":{
         "country":[
           {"en":"Argentina"},

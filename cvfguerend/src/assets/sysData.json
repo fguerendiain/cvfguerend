@@ -6,7 +6,7 @@
       {"es":"Inicio"}
     ],
     "skills":[
-      {"en":"Skils"},
+      {"en":"Skills"},
       {"es":"Conocimientos"}
     ],
     "jobs":[
@@ -115,7 +115,7 @@
   },
   "knowledge":{
     "title":[
-      {"en":"Skils"},
+      {"en":"Skills"},
       {"es":"Conocimientos"}
     ],
     "course":{

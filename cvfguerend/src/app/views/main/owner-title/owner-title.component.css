@@ -6,6 +6,11 @@
     font-size: 4rem;
 }
 
+@media(max-width: 1200px){
+    .titleText{    
+        font-size: 3rem;
+    }
+}
 
 @media(max-width: 800px){
     .titleText{    

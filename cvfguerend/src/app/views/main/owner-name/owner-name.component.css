@@ -30,6 +30,17 @@
     padding-left: 2.5rem;
 }
 
+@media(max-width: 1200px){
+    .firstName{
+        font-size: 4rem;
+        padding-bottom: 1.8rem;
+    }
+
+    .lastName{
+        font-size: 4rem;
+    }
+}
+
 @media(max-width: 800px){
     .firstName{
         font-size: 3rem;

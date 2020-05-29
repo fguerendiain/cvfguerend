@@ -16,6 +16,18 @@
     background-color: rgba(0,0,0,0.4);
 }
 
+@media(max-width: 1200px){
+    .owner-avatar-img{
+        width: 20rem;
+        height: 20rem;
+        margin: 1.5rem;
+    }
+
+    .owner-avatar-imgContainerDiv{
+        padding: 1.5rem;
+    }
+}
+
 @media(max-width: 800px){
     .owner-avatar-img{
         width: 15rem;

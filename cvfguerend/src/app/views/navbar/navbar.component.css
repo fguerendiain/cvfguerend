@@ -64,3 +64,18 @@
     z-index: 5;
 }
 
+@media(max-width: 800px){
+    .navBar-link{
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-style: italic;
+        color:rgb(153, 153, 153);
+        margin: 0 0.5rem;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        padding: 0.1rem;
+        transition: color 0.2s;
+        position: relative;
+        z-index: 4;
+    }
+}
