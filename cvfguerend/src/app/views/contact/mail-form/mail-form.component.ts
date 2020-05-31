@@ -4,6 +4,8 @@ import {ErrorStateMatcher} from '@angular/material/core';
 import * as Data from '../../../../assets/sysData.json';
 import * as Utils from '../../../Utils';
 import {EmailSenderService} from '../../../email-sender.service';
+import { empty } from 'rxjs';
+import { isNullOrUndefined } from 'util';
 
 const SYSCONFIG = Data.mailForm;
 
@@ -21,6 +23,7 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
   templateUrl: './mail-form.component.html',
   styleUrls: ['./mail-form.component.css']
 })
+
 export class MailFormComponent {
   @Input() selectedLang;
 
@@ -47,6 +50,12 @@ export class MailFormComponent {
   tooltipEmail2: string;
   errEmail: string;
 
+  lblEmailLoadingTitle: string;
+  btnAceptMessage: string;
+  lblEmailProcessMsgOk:string;
+  lblEmailProcessMsgErr:string;
+  showEmailSendFail:boolean;
+
   lblSummary: string;
   placeHolderSummary: string;
 
@@ -54,6 +63,12 @@ export class MailFormComponent {
   placeHolderMessage: string;
 
   btnSubmit: string;
+
+  emailSendResp: boolean;
+  emailSendRespErr:boolean;
+  showEmailAlert:boolean;
+  showEmailForm:boolean;
+  showLoadingSpinner:boolean;
 
   response = '';
 
@@ -67,7 +82,13 @@ export class MailFormComponent {
 
   // tslint:disable-next-line: use-lifecycle-interface
   ngOnInit(): void {
+    this.showLoadingSpinner = false;
+    this.showEmailAlert = false;
+    this.showEmailForm = true;
+    this.emailSendResp = null;
+    this.emailSendRespErr = null;
     this.hideSubmit();
+    this.showFormOrResponse();
   }
 
   // tslint:disable-next-line: use-lifecycle-interface
@@ -78,6 +99,12 @@ export class MailFormComponent {
     this.tooltipEmail1 = Utils.getTranslation(this.selectedLang, SYSCONFIG.tooltipEmail1);
     this.tooltipEmail2 = Utils.getTranslation(this.selectedLang, SYSCONFIG.tooltipEmail2);
     this.errEmail = Utils.getTranslation(this.selectedLang, SYSCONFIG.errEmail);
+
+    this.lblEmailLoadingTitle = Utils.getTranslation(this.selectedLang, SYSCONFIG.lblEmailLoadingTitle);
+
+    this.lblEmailProcessMsgOk = Utils.getTranslation(this.selectedLang, SYSCONFIG.lblEmailProcessMsgOk);
+    this.lblEmailProcessMsgErr = Utils.getTranslation(this.selectedLang, SYSCONFIG.lblEmailProcessMsgErr);
+    this.btnAceptMessage = Utils.getTranslation(this.selectedLang, SYSCONFIG.btnAceptMessage);
 
     this.lblSummary = Utils.getTranslation(this.selectedLang, SYSCONFIG.lblSummary);
     this.placeHolderSummary = Utils.getTranslation(this.selectedLang, SYSCONFIG.placeHolderSummary);
@@ -100,15 +127,78 @@ export class MailFormComponent {
       }
   }
 
-  submitForm(){
+  submitForm():void{
+    this.emailSendResp = null;
+    this.emailSendRespErr = null;
     const mailServiceBody = {
       subject: this.summaryFormControl.value,
       body: this.messageFormControl.value,
       email: this.emailFormControl.value
     };
+    this.clearForm();
+    this.showLoadingSpinnerToggle(true);    
     this.emailService.sendMessage(mailServiceBody).subscribe(data => {
-      this.response = data.toString();
+      console.log(data.emailSend);
+        this.emailSendResp = data.emailSend;
+        this.showLoadingSpinnerToggle(false);
+      },
+    error =>{
+      console.log(error)
+      this.emailSendRespErr = true;
+      this.showLoadingSpinnerToggle(false);
     });
-  }
+    }
 
-}
+    showLoadingSpinnerToggle(on:boolean):void{
+      if(on){
+        this.showLoadingSpinner = true;
+        this.showEmailForm = false;
+        this.showEmailAlert = false;
+      }else{
+        setTimeout(()=>{
+          this.showLoadingSpinner = false;
+          this.showFormOrResponse();
+        }
+        ,3000);
+      }
+    }
+
+    showFormOrResponse():void{
+      if(isNullOrUndefined(this.emailSendRespErr) || !this.emailSendRespErr){
+        if(isNullOrUndefined(this.emailSendResp)){
+          this.showEmailForm = true;
+          this.showEmailAlert = false;
+        }else{
+          if(this.emailSendResp){
+            this.showEmailForm = false;
+            this.showEmailAlert = true;
+            this.showEmailSendFail = false;
+          }else{
+            this.showEmailForm = false;
+            this.showEmailAlert = true;
+            this.showEmailSendFail = true;
+          }
+        }
+      }else{
+        this.showEmailForm = false;
+        this.showEmailAlert = true;
+        this.showEmailSendFail = true;
+      }
+    }
+
+
+    aceptMessage():void{
+      this.showEmailSendFail = false;
+      this.emailSendResp = null;
+      this.emailSendRespErr = null;
+      this.showFormOrResponse();
+    }
+
+    clearForm():void{
+      this.summaryFormControl.reset();
+      this.messageFormControl.reset();
+      this.emailFormControl.reset();
+    }
+
+
+  }

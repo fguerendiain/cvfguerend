@@ -1,7 +1,29 @@
 <div class="contactContainerDiv">
   <h1 class="email-form-title">{{lblContactTitle}}</h1>
 
-  <div class="formContainerDiv">
+  <div *ngIf="showLoadingSpinner" class="loadingSpinner formContainerDiv"> 
+    <mat-spinner></mat-spinner>
+    <h1 class="email-loading-title">{{lblEmailLoadingTitle}}</h1>
+  </div>
+
+  <div *ngIf="showEmailAlert" class="mailResponseAlert formContainerDiv">
+    <div class="sendMailProcess">
+
+      <div *ngIf="!showEmailSendFail">
+        <h1 class="sendMailProcessMesageOk">{{lblEmailProcessMsgOk}}</h1>
+      </div>
+
+      <div *ngIf="showEmailSendFail">
+        <h1 class="sendMailProcessMesageErr">{{lblEmailProcessMsgErr}}</h1>
+      </div>
+
+      <div>
+        <button mat-flat-button (click)="aceptMessage()">{{btnAceptMessage}}</button>
+      </div>
+    </div>
+</div>
+
+  <div *ngIf="showEmailForm" class="formContainerDiv">
     <form class="example-form">
       <mat-form-field class="example-full-width">
         <mat-label>{{lblEmail}}</mat-label>

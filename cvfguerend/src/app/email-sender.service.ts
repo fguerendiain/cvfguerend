@@ -8,12 +8,13 @@ const endpoint = 'http://localhost:4780/v1/';
 })
 export class EmailSenderService {
 
+  response:any;
+
   constructor(private http: HttpClient) {}
 
   public sendMessage(body) {
     const req: string = endpoint + 'sendMail';
-    console.log(req + JSON.stringify(body));
-    return this.http.post(req, body);
+    return this.http.post<{emailSend:boolean}>(req, body);
   }
 
 }

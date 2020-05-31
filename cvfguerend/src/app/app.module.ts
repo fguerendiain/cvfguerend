@@ -22,6 +22,8 @@ import { NavbarComponent } from './views/navbar/navbar.component';
 // ANGULAR MATERIAL
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
 
 // SERVICE
 import { EmailSenderService } from './email-sender.service';
@@ -49,6 +51,7 @@ import { EmailSenderService } from './email-sender.service';
 
     MatInputModule,
     MatButtonModule,
+    MatProgressSpinnerModule,
 
     FormsModule,
     ReactiveFormsModule

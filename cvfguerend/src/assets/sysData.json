@@ -23,6 +23,22 @@
       {"en":"Contact Me"},
       {"es":"Contacto"}
     ],
+    "lblEmailLoadingTitle":[
+      {"en":"Sending ..."},
+      {"es":"Enviando ..."}
+    ],
+    "btnAceptMessage":[
+      {"en":"Continue"},
+      {"es":"Continuar"}
+    ],
+    "lblEmailProcessMsgOk":[
+      {"en":"Message sent"},
+      {"es":"Mensaje enviado"}
+    ],
+    "lblEmailProcessMsgErr":[
+      {"en":"There was an error sending the message, please try again."},
+      {"es":"Hubo un error al enviar el mensaje, por favor intente nuevamente."}
+    ],
     "lblEmail":[
       {"en":"Email"},
       {"es":"Correo Electronico"}

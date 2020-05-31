@@ -20,6 +20,32 @@
 
 }
 
+.email-loading-title{
+  padding-top: 0.8rem;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 450;
+  text-shadow: 0.1rem 0.1rem rgb(95, 95, 95);
+  text-shadow: 
+      -0.1rem 0rem black, 
+       0rem 0.1rem black, 
+       0.1rem 0rem black, 
+       0rem -0.1rem black;
+  padding-bottom: 5rem;
+}
+
+::ng-deep .mat-spinner{
+  margin:3rem auto;
+}
+
+
+::ng-deep .mat-spinner circle {
+  stroke: rgba(200,0,0,0.7);
+  }
+
+
 ::ng-deep .mat-form-field-label {
   color: rgb(153, 153, 153) !important;
  }
@@ -39,6 +65,49 @@
   height: 7rem;
   max-width: 7rem;
 }
+
+.sendMailProcess{
+  padding: 5rem, 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+
+}
+
+.sendMailProcessMesageOk{
+  padding-top: 0.8rem;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 450;
+  text-shadow: 0.1rem 0.1rem rgb(95, 95, 95);
+  text-shadow: 
+      -0.1rem 0rem black, 
+       0rem 0.1rem black, 
+       0.1rem 0rem black, 
+       0rem -0.1rem black;
+  padding-bottom: 5rem;  
+}
+
+.sendMailProcessMesageErr{
+  padding-top: 0.8rem;
+  text-align: center;
+  font-size: 2rem;
+  color:rgba(200,0,0,0.7);
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 450;
+  text-shadow: 0.1rem 0.1rem rgb(95, 95, 95);
+  text-shadow: 
+      -0.1rem 0rem black, 
+       0rem 0.1rem black, 
+       0.1rem 0rem black, 
+       0rem -0.1rem black;
+  padding-bottom: 5rem;  
+}
+
 
 .formContainerDiv {
     min-width: 30rem;
