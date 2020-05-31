@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-const endpoint = 'http://localhost:4780/v1/';
+const endpoint = 'http://franco.guerendiain.com.ar:5182/v1/';
 
 @Injectable({
   providedIn: 'root'
