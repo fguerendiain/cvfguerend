@@ -1,5 +1,6 @@
 .jobDivContainer{
     color:rgb(153, 153, 153);
+    padding-bottom: 7rem;
 }
 
 .jobTitle{
@@ -72,10 +73,6 @@ pre{
 
 @media(max-width: 1200px){
     
-    .jobDivContainer{
-        padding-bottom: 5rem;
-    }
-
     .jobListContainerDiv{
         margin-left: 3rem;
         margin-right: 3rem;

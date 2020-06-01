@@ -22,6 +22,8 @@
     
     .bio-text{
         margin: 0 3rem;    
+        font-size: 1.7rem;
+        line-height: 1.7rem;
         text-align: justify;
     }
 }
