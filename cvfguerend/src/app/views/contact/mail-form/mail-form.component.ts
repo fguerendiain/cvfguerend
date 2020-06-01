@@ -198,6 +198,10 @@ export class MailFormComponent {
       this.summaryFormControl.reset();
       this.messageFormControl.reset();
       this.emailFormControl.reset();
+      this.mailInput = '';
+      this.summaryInput ='';
+      this.massageTextArea ='';
+      this.hideSubmit();
     }
 
 

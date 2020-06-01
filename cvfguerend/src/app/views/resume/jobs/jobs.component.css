@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 6rem;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: .3rem;
     font-weight: 450;
     text-shadow: 0.1rem 0.1rem rgb(95, 95, 95);
     text-shadow: 
@@ -21,7 +21,6 @@
 }
 
 .jobListContainerDiv{
-    width: 100%;
     background-color: rgba(153, 153, 153,0.2);
     border-style: inset;
     border-width: 0.5rem;
@@ -71,7 +70,17 @@ pre{
     margin-left: 1rem;
 }
 
+@media(max-width: 1200px){
+    
+    .jobDivContainer{
+        padding-bottom: 5rem;
+    }
 
+    .jobListContainerDiv{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
 
 @media(max-width: 800px){
     

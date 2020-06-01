@@ -5,6 +5,7 @@
     
 .firstName{
     color: rgb(200, 0, 0);
+    text-align: center;
     text-shadow: 0.1rem 0.1rem rgb(51, 0, 0);
     text-shadow: 
         -0.1rem 0rem black, 
@@ -14,8 +15,6 @@
     font-size: 6rem;
     font-weight: 550;
     padding-bottom: 4rem;
-
-
 }
 
 .lastName{
@@ -27,7 +26,7 @@
          0.1rem 0rem black, 
          0rem -0.1rem black;
     font-size: 6rem;
-    padding-left: 2.5rem;
+    text-align: center;
 }
 
 @media(max-width: 1200px){

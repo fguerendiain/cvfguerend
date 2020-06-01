@@ -13,7 +13,7 @@ export class AppComponent {
   @ViewChild(NavbarComponent) navBar: NavbarComponent;
   
   title = 'cvfguerend';
-  selectedLang:string = 'en';
+  selectedLang:string;
   navBarOffSetTop:number;
   sections:any;
   navBarComp:any;
@@ -23,6 +23,7 @@ export class AppComponent {
   }
 
   ngOnInit(){
+    this.getBrowserLang();
     this.navBarOffSetTop =  document.getElementById('navBar').offsetTop;
   }
 
@@ -32,6 +33,18 @@ export class AppComponent {
 
   ngAfterViewChecked(){
     this.setDomValues();
+  }
+
+  getBrowserLang():void{
+    if(navigator.language == "es-ES"){
+      this.selectedLang = 'es';
+    }else{
+      this.selectedLang = 'en';
+    }
+  }
+
+  onResize(event) {
+    event.target.innerWidth;
   }
 
   setDomValues(){

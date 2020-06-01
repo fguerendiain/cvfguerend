@@ -5,25 +5,23 @@
 .bio-text{
     color:rgb(153, 153, 153);
     white-space: pre-wrap;
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: center;
     letter-spacing: 0.1rem;
-    line-height: 2rem;
+    line-height: 3.5rem;
     font-style: italic;    
+    font-family: 'Pinyon Script', cursive;
 }
 
 @media(max-width: 800px){
     .bio-textContainerDiv{
-        padding-right: 0;    
+        width: 100%;
+        padding-right: 0;
     }
     
     .bio-text{
-        white-space: pre-wrap;
-        font-size: 1.5rem;
-        text-align: center;
-        letter-spacing: 0.1rem;
-        line-height: 2rem;
-        font-style: italic;    
+        margin: 0 3rem;    
+        text-align: justify;
     }
 }

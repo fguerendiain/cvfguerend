@@ -1,4 +1,5 @@
-<section class="main-section" id = "main-section">
+<div (window:resize)="onResize($event)" class="mainDiv">
+  <section class="main-section" id = "main-section">
     <div class="cover">
     <app-owner-name></app-owner-name>
     <app-owner-avatar></app-owner-avatar>
@@ -29,3 +30,4 @@
       <app-owner-contact [selectedLang] = "selectedLang"></app-owner-contact>
   </div>
 </section>
+</div>
