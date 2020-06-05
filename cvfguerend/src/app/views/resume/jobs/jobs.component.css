@@ -12,10 +12,10 @@
     letter-spacing: .3rem;
     font-weight: 450;
     text-shadow: 0.1rem 0.1rem rgb(95, 95, 95);
-    text-shadow: 
-        -0.1rem 0rem black, 
-         0rem 0.1rem black, 
-         0.1rem 0rem black, 
+    text-shadow:
+        -0.1rem 0rem black,
+         0rem 0.1rem black,
+         0.1rem 0rem black,
          0rem -0.1rem black;
     padding-bottom: 8rem;
 
@@ -72,7 +72,7 @@ pre{
 }
 
 @media(max-width: 1200px){
-    
+
     .jobListContainerDiv{
         margin-left: 3rem;
         margin-right: 3rem;
@@ -80,12 +80,25 @@ pre{
 }
 
 @media(max-width: 800px){
-    
+
     .jobTitle{
         font-size: 3rem;
         padding-top: 5rem;
         padding-bottom: 1.5rem;
     }
 }
+
+@media(max-width: 500px){
+
+  .jobHeaderEnterprise{
+    width: 30%;
+}
+
+.jobHeaderDates{
+    width: 70%;
+}
+
+}
+
 
 

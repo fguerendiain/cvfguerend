@@ -1,5 +1,5 @@
 .bio-textContainerDiv{
-    padding-right: 10rem;    
+    padding-right: 10rem;
 }
 
 .bio-text{
@@ -10,7 +10,6 @@
     margin: center;
     letter-spacing: 0.1rem;
     line-height: 3.5rem;
-    font-style: italic;    
     font-family: 'Pinyon Script', cursive;
 }
 
@@ -19,9 +18,9 @@
         width: 100%;
         padding-right: 0;
     }
-    
+
     .bio-text{
-        margin: 0 3rem;    
+        margin: 0 3rem;
         font-size: 1.7rem;
         line-height: 1.7rem;
         text-align: justify;

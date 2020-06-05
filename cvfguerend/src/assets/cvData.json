@@ -12,8 +12,8 @@
         {"en":"Professional Profile"}
       ],
       "text":[
-        {"es":"Cuento con experiencia y conocimientos técnicos generales en cuanto a redes e infraestructura.\nSoy una persona proactiva y con capacidad para formar parte de un equipo en el que se busque permanentemente la eficiencia y la constante capacitación.\nDeseo poder crecer profesional y personalmente en el mercado laboral del desarrollo de software."},
-        {"en":"I am a proactive person and like to be part of a team which seeks for permanent efficiency and constant learning.\nCount with experience on support and maintenance of applications, and management of networks and infrastructure\nI wish to build a solid and professional career in the software development market."}
+        {"es":"Cuento con experiencia y conocimientos técnicos generales en cuanto a redes e infraestructura.\nSoy una persona proactiva y con capacidad para formar parte de un equipo en el que se busque permanentemente la eficiencia y la constante capacitación."},
+        {"en":"I am a proactive person and like to be part of a team which seeks for permanent efficiency and constant learning.\nCount with experience on support and maintenance of applications, and management of networks and infrastructure."}
       ]
     },
     "contact":{
@@ -143,7 +143,7 @@
         ],
         "until":[
           {"en":"Present"},
-          {"es":"Present"}
+          {"es":"Presente"}
         ],
         "enterprise":[
           {"en":"EVERIS Argentina."},
