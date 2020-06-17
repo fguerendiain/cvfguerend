@@ -9,15 +9,16 @@
     <app-owner-bio [selectedLang] = "selectedLang" ></app-owner-bio>
   </div>
   <div class= "main-header">
-    <app-language-selector  (selectedLang) = "setLanguage($event)"></app-language-selector>
+    <app-language-selector *ngIf="languageOnNavBarNot" [attachToNavBar]="languageOnNavBar" (selectedLang) = "setLanguage($event)"></app-language-selector>
   </div>
 </section>
 <nav class="navbar-section" id="navBar">
   <app-navbar [selectedLang] = "selectedLang"></app-navbar>
+  <app-language-selector *ngIf="languageOnNavBar" [attachToNavBar]="languageOnNavBar" (selectedLang) = "setLanguage($event)"></app-language-selector>
 </nav>
 <section class="skils-section" id = "skils-section">
   <!--<app-education [selectedLang] = "selectedLang"></app-education>-->
-  <app-knowledge [selectedLang] = "selectedLang"></app-knowledge> 
+  <app-knowledge [selectedLang] = "selectedLang"></app-knowledge>
 </section>
 <section class="jobs-section" id = "jobs-section">
   <app-jobs [selectedLang] = "selectedLang"></app-jobs>

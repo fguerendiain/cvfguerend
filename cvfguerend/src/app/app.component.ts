@@ -11,13 +11,15 @@ import { NavbarComponent } from './views/navbar/navbar.component';
 export class AppComponent {
 
   @ViewChild(NavbarComponent) navBar: NavbarComponent;
-  
+
   title = 'cvfguerend';
-  selectedLang:string;
-  navBarOffSetTop:number;
-  sections:any;
-  navBarComp:any;
-  navBarLinks:any;
+  selectedLang: string;
+  navBarOffSetTop: number;
+  sections: any;
+  navBarComp: any;
+  navBarLinks: any;
+  languageOnNavBar = false;
+  languageOnNavBarNot = false;
 
   constructor(@Inject(DOCUMENT) document){
   }
@@ -57,13 +59,18 @@ export class AppComponent {
     });
   }
 
-  @HostListener('window:scroll',['$event'])
+  @HostListener('window:scroll', ['$event'])
   onWindowScroll(e){
+    let element: Element;
     if(window.pageYOffset >= this.navBarOffSetTop){
-      let element = document.getElementById('navBar');
+      this.languageOnNavBar = true;
+      this.languageOnNavBarNot = false;
+      element = document.getElementById('navBar');
       element.classList.add('sticky');
     }else{
-      let element = document.getElementById('navBar');
+      this.languageOnNavBarNot = true;
+      this.languageOnNavBar = false;
+      element = document.getElementById('navBar');
       element.classList.remove('sticky');
     }
     this.sections.forEach((section, i) => {
