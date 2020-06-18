@@ -37,36 +37,6 @@
   padding-bottom: 5rem;
 }
 
-::ng-deep .mat-spinner{
-  margin:3rem auto;
-}
-
-
-::ng-deep .mat-spinner circle {
-  stroke: rgba(200,0,0,0.7);
-  }
-
-
-::ng-deep .mat-form-field-label {
-  color: rgb(153, 153, 153) !important;
- }
-
- ::ng-deep.mat-form-field-underline {
-  background-color: rgb(153, 153, 153) !important;
-}
-
-::ng-deep.mat-form-field-ripple {
- background-color: rgb(153, 153, 153) !important;;
-}
-
-::ng-deep.mat-form-field.textarea {
-  width: 100%;
-  min-width: 30rem;
-  max-height: 7rem;
-  height: 7rem;
-  max-width: 7rem;
-}
-
 .sendMailProcess{
   padding: 5rem, 2rem;
   align-items: center;
@@ -128,6 +98,7 @@
 .example-full-width {
   width: 100%;
 }
+
 
 @media(max-width: 800px){
 

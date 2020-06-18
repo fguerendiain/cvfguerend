@@ -1,7 +1,7 @@
 <div class="formContactContainerDiv">
   <h1 class="email-form-title">{{lblContactTitle}}</h1>
 
-  <div *ngIf="showLoadingSpinner" class="loadingSpinner formContainerDiv"> 
+  <div *ngIf="showLoadingSpinner" class="loadingSpinner formContainerDiv">
     <mat-spinner></mat-spinner>
     <h1 class="email-loading-title">{{lblEmailLoadingTitle}}</h1>
   </div>
@@ -27,7 +27,7 @@
     <form class="example-form">
       <mat-form-field class="example-full-width">
         <mat-label>{{lblEmail}}</mat-label>
-        <input matInput onchange="" [formControl]="emailFormControl" [errorStateMatcher]="matcher" placeholder={{placeHolderEmail}} [(ngModel)]="mailInput">
+        <input matInput onchange="" [formControl]="emailFormControl" [errorStateMatcher]="matcher" placeholder={{placeHolderEmail}} [(ngModel)]="mailInput"/>
         <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
           {{errEmail}}
         </mat-error>
@@ -35,15 +35,15 @@
           {{tooltipEmail1}} <strong>{{tooltipEmail2}}</strong>
         </mat-error>
       </mat-form-field>
-  
+
       <mat-form-field class="example-full-width">
         <mat-label>{{lblSummary}}</mat-label>
-        <input matInput [formControl]="summaryFormControl" placeholder={{placeHolderSummary}} [(ngModel)]="summaryInput">
+        <input matInput [formControl]="summaryFormControl" placeholder={{placeHolderSummary}} [(ngModel)]="summaryInput"/>
         <mat-error *ngIf="summaryFormControl.hasError('required')">
           {{tooltipEmail1}} <strong>{{tooltipEmail2}}</strong>
         </mat-error>
       </mat-form-field>
-  
+
       <mat-form-field class="example-full-width">
         <mat-label>{{lblMessage}}</mat-label>
         <textarea matInput [formControl]="messageFormControl" placeholder={{placeHolderMessage}} [(ngModel)]="massageTextArea"

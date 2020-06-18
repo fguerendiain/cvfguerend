@@ -14,3 +14,39 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
+.mat-spinner{
+  margin:3rem auto;
+}
+
+
+
+.mat-spinner circle {
+  stroke: rgba(200,0,0,0.7);
+  }
+
+
+
+.mat-form-field-label {
+  color: rgb(153, 153, 153) !important;
+ }
+
+.mat-input-element::placeholder {
+  color: rgb(94, 94, 94) !important;
+}
+
+.mat-form-field-underline {
+  background-color: rgb(110, 110, 110) !important;
+}
+
+.mat-form-field-ripple {
+ background-color: rgb(153, 153, 153) !important;;
+}
+
+.mat-form-field.textarea {
+  width: 100%;
+  min-width: 30rem;
+  max-height: 7rem;
+  height: 7rem;
+  max-width: 7rem;
+}

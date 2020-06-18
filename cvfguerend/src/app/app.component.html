@@ -12,9 +12,13 @@
     <app-language-selector *ngIf="languageOnNavBarNot" [attachToNavBar]="languageOnNavBar" (selectedLang) = "setLanguage($event)"></app-language-selector>
   </div>
 </section>
-<nav [class]= "setNavBarStickyClass()" id="navBar">
-  <app-navbar [selectedLang] = "selectedLang"></app-navbar>
-  <app-language-selector *ngIf="languageOnNavBar" [attachToNavBar]="languageOnNavBar" (selectedLang) = "setLanguage($event)"></app-language-selector>
+<nav class= "navbar-section" [class]= "setNavBarStickyClass()" id="navBar">
+  <div class="stickyNavBar">
+    <app-navbar [selectedLang] = "selectedLang"></app-navbar>
+  </div>
+  <div class="stickyLanguage">
+    <app-language-selector *ngIf="languageOnNavBar" [attachToNavBar]="languageOnNavBar" (selectedLang) = "setLanguage($event)"></app-language-selector>
+  </div>
 </nav>
 <section class="skils-section" id = "skils-section">
   <!--<app-education [selectedLang] = "selectedLang"></app-education>-->

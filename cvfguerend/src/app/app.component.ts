@@ -83,11 +83,20 @@ export class AppComponent {
 
   setNavBarStickyClass(): string{
     if(this.isStickyNavBar){
-      return 'navbar-section sticky';
+      return 'sticky';
     }else{
-      return 'navbar-section';
+      return '';
     }
   }
+
+  setStyckyNavBarClass(){
+    if(this.isStickyNavBar){
+      return 'stickyNavBar';
+    }else{
+      return '';
+    }
+  }
+
 
   setLanguage(lang){
     this.selectedLang = lang;

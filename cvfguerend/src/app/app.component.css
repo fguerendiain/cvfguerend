@@ -57,6 +57,23 @@
     top:0;
 }
 
+.stickyNavBar{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stickyLanguage{
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .skils-section{
     width: 100%;
     height: fit-content;
@@ -163,6 +180,14 @@
         height: 20vh;
         display: flex;
         flex-direction: column;
+    }
+
+    .stickyNavBar{
+      width: 80%;
+    }
+
+    .stickyLanguage{
+      width: 20%;
     }
 
     .mail-form-section{
