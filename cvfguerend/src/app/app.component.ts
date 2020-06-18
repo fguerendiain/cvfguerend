@@ -19,7 +19,8 @@ export class AppComponent {
   navBarComp: any;
   navBarLinks: any;
   languageOnNavBar = false;
-  languageOnNavBarNot = false;
+  languageOnNavBarNot = true;
+  isStickyNavBar = false;
 
   constructor(@Inject(DOCUMENT) document){
   }
@@ -37,16 +38,16 @@ export class AppComponent {
     this.setDomValues();
   }
 
-  getBrowserLang():void{
-    if(navigator.language == "es-ES"){
+  getBrowserLang(): void{
+    if (navigator.language === "es-ES"){
       this.selectedLang = 'es';
-    }else{
+    } else {
       this.selectedLang = 'en';
     }
   }
 
   onResize(event) {
-    event.target.innerWidth;
+    event.target.innerWidth();
   }
 
   setDomValues(){
@@ -61,17 +62,14 @@ export class AppComponent {
 
   @HostListener('window:scroll', ['$event'])
   onWindowScroll(e){
-    let element: Element;
     if(window.pageYOffset >= this.navBarOffSetTop){
       this.languageOnNavBar = true;
       this.languageOnNavBarNot = false;
-      element = document.getElementById('navBar');
-      element.classList.add('sticky');
+      this.isStickyNavBar = true;
     }else{
       this.languageOnNavBarNot = true;
       this.languageOnNavBar = false;
-      element = document.getElementById('navBar');
-      element.classList.remove('sticky');
+      this.isStickyNavBar = false;
     }
     this.sections.forEach((section, i) => {
       if(window.pageYOffset >= section.offsetTop -10){
@@ -81,6 +79,14 @@ export class AppComponent {
         this.navBarComp[i].classList.add('change')
       }
     });
+  }
+
+  setNavBarStickyClass(): string{
+    if(this.isStickyNavBar){
+      return 'navbar-section sticky';
+    }else{
+      return 'navbar-section';
+    }
   }
 
   setLanguage(lang){

@@ -20,11 +20,11 @@ export class LanguageSelectorComponent implements OnInit {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    this.checkAttachedOnNavBar();
+//    this.checkAttachedOnNavBar();
   }
 
   ngAfterViewChecked(){
-    this.checkAttachedOnNavBar();
+//    this.checkAttachedOnNavBar();
   }
 
   onClickChangeLanguage(event){
@@ -40,6 +40,22 @@ export class LanguageSelectorComponent implements OnInit {
 
   imgURLBuilder(prop): string{
     return "./../../../assets/ico/"+prop+"Ico.jpg"
+  }
+
+  setButtonClass(): string{
+    if (this.attachToNavBar){
+      return 'stickBtnLanguage';
+    }else {
+      return 'btnLanguage';
+    }
+  }
+
+  setContentDivClass(): string{
+    if (this.attachToNavBar){
+      return 'stickSelectorContentDiv';
+    }else {
+      return 'selectorContentDiv';
+    }
   }
 
   checkAttachedOnNavBar(): void{
