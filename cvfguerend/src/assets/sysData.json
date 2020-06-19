@@ -41,7 +41,7 @@
     ],
     "lblEmail":[
       {"en":"Email"},
-      {"es":"Correo Electronico"}
+      {"es":"Correo Electrónico"}
     ],
     "placeHolderEmail":[
       {"en":"example@domain.com"},
@@ -61,11 +61,11 @@
     ],
 
     "lblSummary":[
-      {"en":"Summary"},
+      {"en":"Subject"},
       {"es":"Asunto"}
     ],
     "placeHolderSummary":[
-      {"en":"Message summary"},
+      {"en":"Subject message"},
       {"es":"Asunto del mensaje"}
     ],
     "lblMessage":[
