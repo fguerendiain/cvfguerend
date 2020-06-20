@@ -64,6 +64,16 @@
     z-index: 5;
 }
 
+@media(max-width: 1300px){
+    .navBar-link{
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 0 0.8rem;
+        letter-spacing: .2rem;
+    }
+}
+
+
 @media(max-width: 1200px){
     .navBar-link{
         font-size: 2rem;
@@ -72,6 +82,16 @@
         letter-spacing: .2rem;
     }
 }
+
+@media(max-width: 900px){
+    .navBar-link{
+        font-size: 1.8rem;
+        font-weight: 400;
+        letter-spacing: .1rem;
+        padding: 0.1rem;
+    }
+}
+
 
 @media(max-width: 800px){
     .navBar-link{

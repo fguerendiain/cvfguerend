@@ -63,6 +63,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: -15rem;
 }
 
 .stickyLanguage{
@@ -136,8 +137,17 @@
     .skils-section{
         height: fit-content;
         }
+}
+
+@media(max-width: 1300px){
+    .stickyNavBar{
+        margin-right: -13rem;
     }
 
+}
+
+
+    
 @media(max-width: 1200px){
 
     .jobs-section{
@@ -147,8 +157,27 @@
       height: fit-content;
       }
 
+    .stickyNavBar{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: -12rem;
+    }
+      
 }
 
+@media(max-width: 1070px){
+
+    .stickyNavBar{
+        margin-right: -5rem;
+    }
+
+    .stickyLanguage{
+        margin-right: -5rem;
+      }
+}
 
 @media(max-width: 800px){
     .main-section{
@@ -184,6 +213,7 @@
 
     .stickyNavBar{
       width: 80%;
+      margin-right: -11rem;
     }
 
     .stickyLanguage{
@@ -197,5 +227,42 @@
     .contact-section{
         padding-top: 7rem;
     }
-  }
+
+    @media(max-width: 700px){
+
+        .stickyNavBar{
+            margin-right: 0;
+        }
+    
+        .stickyLanguage{
+            margin-right: 0;
+          }
+    }
+    
+    @media(max-width: 500px){
+
+        .stickyNavBar{
+            margin-right: -4rem;
+        }
+    
+        .stickyLanguage{
+            margin-right: -6rem;
+          }
+    }
+
+    @media(max-width: 420px){
+
+        .stickyNavBar{
+            margin-right: 0rem;
+        }
+    
+        .stickyLanguage{
+            margin-right: 0rem;
+          }
+    }
+
+
+
+
+}
 
