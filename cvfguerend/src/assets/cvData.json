@@ -134,24 +134,112 @@
         ],
         "technologies":[
           "HTML5","CSS","JavaScript","TypeScript","PostgreSQL",
-          "NodeJS","Oracle SQL","GIT","Angular"
+          "NodeJS","Oracle SQL","GIT","Angular","React"
         ]},
       "jobs":[
+
+
         {"since":[
-          {"en":"October 2019"},
-          {"es":"Octubre 2019"}
+          {"en":"September 2021"},
+          {"es":"Septiembre 2021"}
         ],
         "until":[
           {"en":"Present"},
           {"es":"Presente"}
         ],
         "enterprise":[
+          {"en":"Santander Tecnologia Argentina."},
+          {"es":"Santander Tecnologia Argentina."}
+        ],
+        "summary":[
+          {"en":"Project: CLOUDCHEQ (Control system for digitalized checks)"},
+          {"es":"Proyecto: CLOUDCHEQ (Sistema de control para cheques digitalizados)"}
+        ],
+        "description":[
+          {"en":"-Refactor and migration of existing project with AWS and React. Support for legacy projects."},
+          {"es":"-Refactor y migración de proyecto existente con AWS y React. Soporte a proyectos legacy"}
+        ]},
+
+
+
+        {"since":[
+          {"en":"September 2021"},
+          {"es":"Septiembre 2021"}
+        ],
+        "until":[
+          {"en":"Present"},
+          {"es":"Presente"}
+        ],
+        "enterprise":[
+          {"en":"Santander Tecnologia Argentina."},
+          {"es":"Santander Tecnologia Argentina."}
+        ],
+        "summary":[
+          {"en":"Project: IBDESKPJ (Banking management system for Banco Santander Brasil, aimed at companies)"},
+          {"es":"Proyecto: IBDESKPJ (Sistema de gestión bancaria para Banco Santander Brasil, orientado a empresas)"}
+        ],
+        "description":[
+          {"en":"-Development of FrontEnd Applications in Angular, NGRX (Redux), Unit Testing Jasmine/karma. Agile methodology."},
+          {"es":"-Desarrollo de Aplicaciones FrontEnd en Angular, NGRX (Redux), Unit Testing Jasmine/karma. Metodología Agile."}
+        ]},
+
+        {"since":[
+          {"en":"January 2021"},
+          {"es":"Enero 2021"}
+        ],
+        "until":[
+          {"en":"September 2021"},
+          {"es":"Septiembre 2021"}
+        ],
+        "enterprise":[
+          {"en":"La Mercantil Andina (Seguros)."},
+          {"es":"La Mercantil Andina (Seguros)."}
+        ],
+        "summary":[
+          {"en":"Project: LANIN (Management system for internal clients)"},
+          {"es":"Proyecto: LANIN (Sistema de gestión de clientes internos)"}
+        ],
+        "description":[
+          {"en":"-FrontEnd Application Development on Angular, NGXS (Redux), Azure Devops, Unit Testing Jasmine/karma. Agile methodology."},
+          {"es":"-Desarrollo de aplicaciones FrontEnd sobre Angular, NGXS (Redux), Azure Devops, Unit Testing Jasmine/karma. Metodología Agile."}
+        ]},
+
+        {"since":[
+          {"en":"August 2020"},
+          {"es":"Agosto 2020"}
+        ],
+        "until":[
+          {"en":"December 2020"},
+          {"es":"Diciembre 2020"}
+        ],
+        "enterprise":[
           {"en":"EVERIS Argentina."},
           {"es":"EVERIS Argentina."}
         ],
         "summary":[
-          {"en":"Project SADE “Sistema de Administración de Documentación Electrónica) Client: Gobierno de la ciudad de Buenos Aires"},
-          {"es":"Proyecto SADE “Sistema de Administración de Documentación Electrónica) Cliente: Gobierno de la ciudad de Buenos Aires"}
+          {"en":"Project PAE (Pan American Energy Client): Pan American Energy"},
+          {"es":"Proyecto PAE (Pan American Energy) Cliente: Pan American Energy"}
+        ],
+        "description":[
+          {"en":"-FrontEnd Development on Angular 10"},
+          {"es":"-Desarrollo FrontEnd sobre Angular 10"}
+        ]},
+
+        {"since":[
+          {"en":"October 2019"},
+          {"es":"Octubre 2019"}
+        ],
+        "until":[
+          {"en":"August 2020"},
+          {"es":"Agosto 2020"}
+        ],
+        "enterprise":[
+          {"en":"EVERIS Argentina."},
+          {"es":"EVERIS Argentina."}
+        ],
+        "summary":[
+          {"en":"Project SADE (Sistema de Administración de Documentación Electrónica) Client: Gobierno de la ciudad de Buenos Aires"},
+          {"es":"Proyecto SADE (Sistema de Administración de Documentación Electrónica) Cliente: Gobierno de la ciudad de Buenos Aires"}
         ],
         "description":[
           {"en":"-Full Stack Applications Development on Java, Hibernate, Spring , Tomcat, OracleSql.\n(Personal project within the company)\n-Design, development, maintenance and implementation of full stack application everis-run-helper-app on NodeJS, TypeScript and Angular 6 for processes automatization."},
@@ -170,8 +258,8 @@
           {"es":"EVERIS Argentina."}
         ],
         "summary":[
-          {"en":"Project SADE “Sistema de Administración de Documentación Electrónica) Client: Gobierno de la ciudad de Buenos Aires"},
-          {"es":"Proyecto SADE “Sistema de Administración de Documentación Electrónica) Cliente: Gobierno de la ciudad de Buenos Aires"}
+          {"en":"Project SADE (Sistema de Administración de Documentación Electrónica) Client: Gobierno de la ciudad de Buenos Aires"},
+          {"es":"Proyecto SADE (Sistema de Administración de Documentación Electrónica) Cliente: Gobierno de la ciudad de Buenos Aires"}
         ],
         "description":[
           {"en":"-Support to client help desk.\n-Management and control of issues on core application and satellites modules.\n-RUN Team reference.\n-Analysis and monitoring of issues with Linux servers and application source code.\n-Issues resolution through PL/SQL script on Oracle BBDD.\n-Analysis, estimation and implementation of client requires.\n-Control and maintenance of the product on productivity environment, analyzing and solving issues.\n(Personal project within the company)\n-Design, development, maintenance and implementation of middleware everis-run-helper-api on NodeJS and TypeScript for processes automatization."},
